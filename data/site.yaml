@@ -1,4 +1,5 @@
-# magnuslodefalk.com — personal academic site. Ported from the old Google Site (2026-07-20).
+# magnuslodefalk.com — personal academic site (warm editorial). Full content restored
+# from the old Google Site (2026-07-20). Curate from data/recovered-content.md.
 name: "Magnus Lodefalk"
 title: "Associate Professor of Economics"
 domain: "magnuslodefalk.com"
@@ -6,23 +7,31 @@ base_url: "https://magnuslodefalk.com"
 affil: "Örebro University · Ratio · Global Labor Organization"
 photo: "magnus.jpg"
 
+nav:
+  - {label: "About", href: "#about"}
+  - {label: "Research", href: "#research"}
+  - {label: "Writing", href: "#writing"}
+  - {label: "Teaching", href: "#teaching"}
+  - {label: "Resources", href: "#resources"}
+  - {label: "Personal", href: "#personal"}
+
 lede: >-
-  I study what drives and hinders the growth of firms, and the effects on jobs, wages and economic
-  growth: technology and artificial intelligence, public policy and trade, migration, and the
-  servicification of firms.
+  I study what drives and hinders the growth of firms, and the effects on jobs, wages and growth:
+  technology and artificial intelligence, public policy and trade, migration, and the servicification of firms.
+
+actions:
+  - {label: "CV (PDF)", href: "https://magnus-l.github.io/cv/Lodefalk_CV.pdf", primary: true}
+  - {label: "Google Scholar", href: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"}
+  - {label: "AI-Econ Lab", href: "https://ai-econlab.com"}
+  - {label: "Email", href: "mailto:magnus.lodefalk@oru.se"}
 
 bio:
-  - "I am an associate professor at Örebro University, Sweden, and affiliated with the Ratio research institute and the Global Labor Organization. I am the initiator of and co-lead the AI-Econ Lab at Örebro University, and I co-lead the Swedish research cluster on AI, Structural Change and the Future of Work (AISCAF), financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the economics seminar and brown-bag series."
+  - "I am an associate professor at Örebro University, Sweden, and affiliated with the Ratio research institute and the Global Labor Organization. I am the initiator of and co-lead the AI-Econ Lab, and I co-lead the Swedish research cluster on AI, Structural Change and the Future of Work (AISCAF), financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the economics seminar and brown-bag series."
   - "My research is about what drives and hinders the growth of companies and the effects of such factors on jobs, wages and economic growth. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.)."
   - "I study the economic impact of a range of factors, from technology such as artificial intelligence and public policy (for example on foreign trade) to the impact of migrant workers and the servicification of firms. I often employ econometric methods on large de-identified longitudinal and linked employer–employee data."
 
-interests:
-  - "Artificial intelligence, technology and work"
-  - "Firm growth: drivers and barriers"
-  - "Foreign trade and public policy"
-  - "Migration and the labour market"
-  - "Servicification of firms"
-  - "Linked employer–employee microdata"
+interests: ["AI, technology and work", "Firm growth: drivers and barriers", "Trade and public policy",
+            "Migration and the labour market", "Servicification of firms", "Linked employer–employee microdata"]
 
 roles:
   - {label: "AI-Econ Lab", note: "Initiator & co-director", href: "https://ai-econlab.com"}
@@ -30,15 +39,64 @@ roles:
   - {label: "EFGI, Örebro University", note: "Co-lead research group", href: "https://www.oru.se/english/employee/magnus_lodefalk"}
   - {label: "Ratio Institute", note: "Affiliated researcher", href: "http://ratio.se/medarbetare/magnus-lodefalk/"}
 
-# Primary actions in the hero.
-actions:
-  - {label: "CV (PDF)", href: "https://magnus-l.github.io/cv/Lodefalk_CV.pdf", primary: true}
-  - {label: "Google Scholar", href: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"}
-  - {label: "Email", href: "mailto:magnus.lodefalk@oru.se"}
+ongoing:
+  active:
+    - {title: "The Effects of AI on Jobs: Evidence from an AI Subsidy Program", authors: "with Hellsten, Khanna & Yakymovych", status: "in review"}
+    - {title: "AI Unboxed and Jobs: Firm-Level Evidence from Three Countries", authors: "with Engberg, Görg, Hellsten, Javed, Kyvik-Nordås et al.", status: "in review"}
+    - {title: "Same Storm, Different Boats: Generative AI and the Age Gradient in Hiring", authors: "with Löthman, Koch & Engberg", status: "in review"}
+    - {title: "Who Adopts AI? Evidence on Firms, Technologies and Workers", authors: "with Pulito, Pytlikova & Schroeder", status: "working paper"}
+  inprogress:
+    - "AI and Firm Productivity Dynamics (with Ruth)"
+    - "AI and Inequality (with Granberg & Yakymovych)"
+    - "New Work, Exiting Work and AI (with Engberg et al.)"
+    - "The First AI at My Firm: Worker Outcomes (with Hellsten et al.)"
+    - "Skills and the Value of AI Jobs (with Ruth)"
+    - "Socio-Economic and Health Consequences of Delayed Puberty"
+    - "Exports and FDI among services firms (with Kyvik-Nordås & Tang)"
 
-# Publications: point to the lab + CV + indices (the full list lives there).
 publications_note: >-
-  My papers appear on the AI-Econ Lab and in my CV, and are indexed on Google Scholar and RePEc/IDEAS.
+  My peer-reviewed papers and working papers are on the AI-Econ Lab and in my CV, indexed on
+  Google Scholar and RePEc/IDEAS.
+
+writing:
+  - {year: 2026, title: "AI Is Not Reducing Employment but Rather Who Gets Hired", outlet: "ProMarket (Stigler Center, Chicago Booth)", href: "https://www.promarket.org"}
+  - {year: 2025, title: "Algoritmer för allmän nytta (ESO report on AI in the public sector)", outlet: "Expert Group on Public Economics (ESO), Ministry of Finance"}
+  - {year: 2025, title: "AI i offentlig sektor", outlet: "Ekonomisk Debatt 53(4)"}
+  - {year: 2024, title: "Artificiell intelligens och jobben (book, 2nd ed.)", outlet: "Ratio Institute"}
+  - {year: 2021, title: "Migration can Play a Role in the Post-Pandemic Reboot of Global Trade", outlet: "CEPR VoxEU", href: "https://voxeu.org"}
+  - {year: 2020, title: "Globalisering, var god dröj", outlet: "Kvartal"}
+  - {year: 2019, title: "The effects of export credit guarantees on firm performance", outlet: "CEPR VoxEU", href: "https://voxeu.org"}
+  - {year: 2015, title: "Tear down the trade policy silos!", outlet: "CEPR VoxEU", href: "https://voxeu.org"}
+
+media_selected:
+  - {year: 2026, items: "SR (God Morgon Världen, P1 Morgon); TV4 Nyhetsmorgon; DN op-ed on AI and youth jobs; SvD; Aftonbladet"}
+  - {year: 2025, items: "SR Ekonomiekot Extra; SVT1 'Folkets AI'; DI op-ed; GP; Publikt"}
+  - {year: 2024, items: "SR Studio Ett; SVT; TV4; DN; DI op-ed; Akavia podcast"}
+  - {year: 2023, items: "SVT Ekonomibyrån; TV4; SR P4"}
+  - {year: 2016, items: "Financial Times (letter); DI op-ed; DN op-ed"}
+  - {year: 2015, items: "Wall Street Journal (visa-on-arrival study); DN & SvD op-eds"}
+
+teaching:
+  masters:
+    - {code: "NA404A", name: "Corporate Finance", note: "main lecturer, 2018–"}
+    - {code: "NA443A", name: "Globalisation", note: "2025–"}
+    - {code: "NA446A", name: "Programming and Data Management for Economics and Finance", note: "2025–"}
+    - {code: "", name: "International Trading System", note: "initiator & main lecturer, 2011–2014"}
+    - {code: "", name: "MSc Thesis", note: "advisor, 2021–"}
+  undergrad:
+    - {code: "NA170G", name: "AI and the (r)evolution of working life", note: "initiator & main lecturer, 2024–"}
+    - {code: "", name: "Scientific Method (applied econometrics / Stata)", note: "2020–"}
+    - {code: "", name: "Economic Analysis", note: "2016"}
+    - {code: "", name: "BSc Thesis", note: "advisor, 2019–"}
+  note: "PhD supervision of several doctoral students (2018–2026). Guest lectures at Örebro, Lund, Uppsala and the Estonian School of Diplomacy."
+
+personal:
+  paras:
+    - "Married to Maria; two sons, Axel (2006) and Elias (2009). We live in Örebro, a couple of hours west of Stockholm, and keep a chalet near the Norwegian border for the mountains."
+    - "Away from economics I play music (bass and guitar), get out on a stand-up paddleboard, and ski and hike with the family."
+  facts:
+    - {lbl: "Based", val: "Örebro, Sweden"}
+    - {lbl: "Citizen", val: "Sweden"}
 
 profiles:
   - {label: "CV (comprehensive)", href: "https://magnus-l.github.io/cv/Lodefalk_CV_Comprehensive.pdf"}
@@ -56,3 +114,5 @@ contact:
   email: "magnus.lodefalk@oru.se"
   phone: "+46 (0)722 21 73 40"
   address: "Örebro University, SE-701 82 Örebro, Sweden"
+
+build: {emit_cname: false}

@@ -1,0 +1,90 @@
+# Econ links — curated resources, ported from magnuslodefalk.com/econ-links (2026-07-20).
+# Rendered as collapsible groups in the Resources section.
+groups:
+  - name: "Data"
+    links:
+      - {label: "Eurostat", href: "https://ec.europa.eu/eurostat/"}
+      - {label: "Statistics Sweden (database)", href: "http://www.statistikdatabasen.scb.se/pxweb/en/ssd/"}
+      - {label: "Statistics Sweden (microdata for researchers)", href: "https://www.scb.se/en/services/guidance-for-researchers-and-universities/"}
+      - {label: "OECD.AI Policy Observatory", href: "https://www.oecd.ai"}
+      - {label: "OECD AI Incidents Monitor", href: "https://oecd.ai/en/incidents"}
+      - {label: "O*NET", href: "https://www.onetcenter.org"}
+      - {label: "PIAAC (OECD skills survey)", href: "https://www.oecd.org/skills/piaac/data/"}
+      - {label: "NBER data", href: "https://www.nber.org/data/"}
+      - {label: "World Bank WDI", href: "http://datatopics.worldbank.org/world-development-indicators/"}
+      - {label: "World Bank WITS", href: "https://wits.worldbank.org"}
+      - {label: "UN Comtrade", href: "https://comtrade.un.org"}
+      - {label: "WTO statistics", href: "https://www.wto.org/english/res_e/statis_e/statis_e.htm"}
+      - {label: "BaTIS (services trade)", href: "https://data.wto.org"}
+      - {label: "GTAP", href: "https://www.gtap.agecon.purdue.edu"}
+      - {label: "CEPII", href: "http://www.cepii.fr/cepii/en/bdd_modele/bdd.asp"}
+      - {label: "LIS (Luxembourg Income Study)", href: "https://www.lisdatacenter.org/our-data/lis-database/"}
+      - {label: "Serrano (Swedish firm-level)", href: "https://www.hhs.se/en/houseoffinance/data-center/serrano/"}
+      - {label: "Ekonomifakta", href: "https://www.ekonomifakta.se"}
+      - {label: "Riksbank rates & FX", href: "https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/"}
+      - {label: "Maddison world economy", href: "http://www.theworldeconomy.org"}
+      - {label: "EU RAMON concordances", href: "https://ec.europa.eu/eurostat/ramon/index.cfm"}
+  - name: "Papers"
+    links:
+      - {label: "NBER working papers", href: "https://www.nber.org/papers/"}
+      - {label: "EconPapers (RePEc)", href: "https://econpapers.repec.org"}
+      - {label: "SwoPec working papers", href: "https://swopec.hhs.se"}
+      - {label: "GLO Discussion Papers", href: "https://glabor.org/platform/discussion-papers/"}
+      - {label: "ORU working papers", href: "https://www.oru.se/institutioner/handelshogskolan/forskning/working-papers/"}
+      - {label: "Journal of Economic Perspectives", href: "https://www.aeaweb.org/journals/jep"}
+      - {label: "Ekonomisk Debatt", href: "https://www.nationalekonomi.se/EDom"}
+      - {label: "Econ literature search (Goldsmith-Pinkham)", href: "https://paulgp.com/econlit-pipeline/index.html"}
+  - name: "Conferences"
+    links:
+      - {label: "ETSG", href: "https://www.etsg.org"}
+      - {label: "EEA", href: "https://www.eeassoc.org/index.php"}
+      - {label: "EALE", href: "https://eale.nl"}
+      - {label: "SOLE", href: "https://www.sole-jole.org"}
+      - {label: "ILERA", href: "https://ilo-ilera.org"}
+      - {label: "SNEE", href: "https://www.ehl.lu.se/forskning/forskningsgrupper/snee"}
+      - {label: "NOITS", href: "http://www.noits.org"}
+      - {label: "NICE (Nordic)", href: "http://www.nordicnice.org"}
+      - {label: "WEA", href: "https://weai.org/conferences"}
+      - {label: "SEA", href: "https://www.southerneconomic.org/conference/"}
+      - {label: "F.R.E.I.T.", href: "https://www.freit.org"}
+  - name: "Machine learning & AI for economists"
+    links:
+      - {label: "Korinek — GenAI for economics", href: "https://genaiforecon.org"}
+      - {label: "Mollick — using AI right now", href: "https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide"}
+      - {label: "Mollick — prompt library", href: "https://www.moreusefulthings.com/prompts"}
+      - {label: "Dell — deep learning for economists", href: "https://econdl.github.io"}
+      - {label: "Golub/Athey — ML & causal inference tutorial", href: "https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/"}
+      - {label: "Sansone — ML/AI resources", href: "https://sites.google.com/view/dariosansone/resources/machine-learning"}
+      - {label: "Facure — causal inference in Python", href: "https://matheusfacure.github.io/econtutorials/"}
+      - {label: "Shervine — ML cheatsheets", href: "https://stanford.edu/~shervine/teaching/"}
+      - {label: "scikit-learn", href: "https://scikit-learn.org/stable/index.html"}
+      - {label: "Claude", href: "https://claude.ai/new"}
+  - name: "Tools & workflow"
+    links:
+      - {label: "Coding for economists (Turrell)", href: "https://aeturrell.github.io/coding-for-economists/intro.html"}
+      - {label: "Python for economists (intro)", href: "https://scholar.harvard.edu/files/ambell/files/python_for_economists.pdf"}
+      - {label: "Kudamatsu — Stata tips", href: "https://sites.google.com/site/mkudamatsu/stata"}
+      - {label: "Kuriwaki — project organization", href: "https://www.shirokuriwaki.com/programming/project-organization.html"}
+      - {label: "Wilson et al. — good computing practices", href: "https://doi.org/10.1371/journal.pcbi.1005510"}
+      - {label: "Overleaf", href: "https://www.overleaf.com"}
+      - {label: "Statistics glossary (Lodefalk)", href: "https://magnus-l.github.io/statistics-glossary/"}
+      - {label: "ABS journal rankings", href: "https://charteredabs.org/academic-journal-guide-2021/"}
+      - {label: "IDEAS/RePEc rankings", href: "https://ideas.repec.org/top/top.journals.all10.html"}
+  - name: "Reading & blogs"
+    links:
+      - {label: "VoxEU", href: "https://voxeu.org"}
+      - {label: "Ekonomistas", href: "https://ekonomistas.se"}
+      - {label: "Greg Mankiw", href: "http://gregmankiw.blogspot.com"}
+      - {label: "Raj Chetty", href: "http://www.rajchetty.com"}
+      - {label: "Financial Times", href: "https://www.ft.com"}
+      - {label: "The Economist", href: "https://www.economist.com/"}
+      - {label: "World Trade Online", href: "https://insidetrade.com"}
+  - name: "Funding"
+    links:
+      - {label: "Swedish Research Council (VR)", href: "https://www.vr.se/english.html"}
+      - {label: "Handelsbanken research foundations", href: "https://www.handelsbanken.se/shb/inet/IStartSv.nsf/FrameSet?OpenView&id=Forskningsstiftelserna"}
+      - {label: "Torsten Söderbergs Stiftelse", href: "https://www.torstensoderbergsstiftelse.se"}
+      - {label: "Sven & Dagmar Saléns Stiftelser", href: "https://salenstiftelsen.se"}
+      - {label: "Gunvor & Josef Anérs Stiftelse", href: "https://www.anerstiftelsen.com"}
+      - {label: "Ollie & Elof Ericssons Stiftelser", href: "https://oestiftelse.se"}
+      - {label: "Siamon (grant finder)", href: "http://www.stiftelseansokan.se/Pages/Siamon.aspx"}
