@@ -11,6 +11,11 @@ OUT = ROOT / "docs"
 BASE = S["base_url"].rstrip("/")
 h = lambda s: html.escape(str(s), quote=True)
 
+def asset(rel):  # cache-bust CSS/JS by content hash so browsers never serve a stale file
+    p = ROOT / rel
+    v = hashlib.md5(p.read_bytes()).hexdigest()[:8] if p.exists() else "0"
+    return f"/{rel}?v={v}"
+
 def photo_src():
     p = ROOT / "assets" / S["photo"]
     v = hashlib.md5(p.read_bytes()).hexdigest()[:8] if p.exists() else "0"
@@ -57,7 +62,7 @@ def page():
 <link rel="canonical" href="{BASE}/">
 <meta property="og:type" content="profile"><meta property="og:title" content="{h(b['name'])}">
 <meta property="og:description" content="{h(b['title'])} · {h(b['affil'])}"><meta property="og:url" content="{BASE}/">
-<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="{asset('assets/styles.css')}">
 <script type="application/ld+json">{ld}</script>
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
@@ -123,7 +128,7 @@ def page():
   <span>© 2026 {h(b['name'])}</span>
   <span>Örebro University · Ratio · GLO · <a href="https://ai-econlab.com">AI-Econ Lab</a></span>
 </div></div></footer>
-<script src="/assets/app.js"></script>
+<script src="{asset('assets/app.js')}"></script>
 </body></html>"""
 
 def build():
