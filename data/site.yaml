@@ -1,0 +1,58 @@
+# magnuslodefalk.com — personal academic site. Ported from the old Google Site (2026-07-20).
+name: "Magnus Lodefalk"
+title: "Associate Professor of Economics"
+domain: "magnuslodefalk.com"
+base_url: "https://magnuslodefalk.com"
+affil: "Örebro University · Ratio · Global Labor Organization"
+photo: "magnus.jpg"
+
+lede: >-
+  I study what drives and hinders the growth of firms, and the effects on jobs, wages and economic
+  growth: technology and artificial intelligence, public policy and trade, migration, and the
+  servicification of firms.
+
+bio:
+  - "I am an associate professor at Örebro University, Sweden, and affiliated with the Ratio research institute and the Global Labor Organization. I am the initiator of and co-lead the AI-Econ Lab at Örebro University, and I co-lead the Swedish research cluster on AI, Structural Change and the Future of Work (AISCAF), financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the economics seminar and brown-bag series."
+  - "My research is about what drives and hinders the growth of companies and the effects of such factors on jobs, wages and economic growth. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.)."
+  - "I study the economic impact of a range of factors, from technology such as artificial intelligence and public policy (for example on foreign trade) to the impact of migrant workers and the servicification of firms. I often employ econometric methods on large de-identified longitudinal and linked employer–employee data."
+
+interests:
+  - "Artificial intelligence, technology and work"
+  - "Firm growth: drivers and barriers"
+  - "Foreign trade and public policy"
+  - "Migration and the labour market"
+  - "Servicification of firms"
+  - "Linked employer–employee microdata"
+
+roles:
+  - {label: "AI-Econ Lab", note: "Initiator & co-director", href: "https://ai-econlab.com"}
+  - {label: "AISCAF (WASP-HS)", note: "Co-lead, AI, Structural Change and the Future of Work", href: "https://ai-econlab.com/about/"}
+  - {label: "EFGI, Örebro University", note: "Co-lead research group", href: "https://www.oru.se/english/employee/magnus_lodefalk"}
+  - {label: "Ratio Institute", note: "Affiliated researcher", href: "http://ratio.se/medarbetare/magnus-lodefalk/"}
+
+# Primary actions in the hero.
+actions:
+  - {label: "CV (PDF)", href: "https://magnus-l.github.io/cv/Lodefalk_CV.pdf", primary: true}
+  - {label: "Google Scholar", href: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"}
+  - {label: "Email", href: "mailto:magnus.lodefalk@oru.se"}
+
+# Publications: point to the lab + CV + indices (the full list lives there).
+publications_note: >-
+  My papers appear on the AI-Econ Lab and in my CV, and are indexed on Google Scholar and RePEc/IDEAS.
+
+profiles:
+  - {label: "CV (comprehensive)", href: "https://magnus-l.github.io/cv/Lodefalk_CV_Comprehensive.pdf"}
+  - {label: "AI-Econ Lab papers", href: "https://ai-econlab.com/research/"}
+  - {label: "Google Scholar", href: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"}
+  - {label: "RePEc / IDEAS", href: "http://ideas.repec.org/f/plo250.html"}
+  - {label: "ORCID", href: "https://orcid.org/0000-0003-0149-9598"}
+  - {label: "Web of Science", href: "https://www.webofscience.com/wos/author/record/AAI-1579-2021"}
+  - {label: "ResearchGate", href: "https://www.researchgate.net/profile/Magnus_Lodefalk"}
+  - {label: "LinkedIn", href: "https://se.linkedin.com/pub/magnus-lodefalk-phd/8/732/46/"}
+  - {label: "Örebro University", href: "https://www.oru.se/english/employee/magnus_lodefalk"}
+  - {label: "GLO profile", href: "https://glabor.org/user/magnus_l/"}
+
+contact:
+  email: "magnus.lodefalk@oru.se"
+  phone: "+46 (0)722 21 73 40"
+  address: "Örebro University, SE-701 82 Örebro, Sweden"
