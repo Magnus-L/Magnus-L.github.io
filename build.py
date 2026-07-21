@@ -220,6 +220,11 @@ def page():
         f'<div class="row"><span class="y"></span><span class="x">'
         f'<a href="{r["href"]}"><b>{h(r["label"])}</b></a> — {h(r["note"])}</span></div>' for r in b["roles"])
     bio = "".join(f"<p>{linkify(p)}</p>" for p in b["bio"])
+    full_bio = ""
+    if b.get("full_bio"):
+        fb = "".join(f"<p>{h(p)}</p>" for p in b["full_bio"])
+        full_bio = (f'<details class="more"><summary>Full biography</summary>'
+                    f'<div class="prose more-body" style="margin-top:8px">{fb}</div></details>')
     ppara = "".join(f"<p>{h(p)}</p>" for p in b["personal"]["paras"])
     profiles = "".join(f'<a href="{p["href"]}">{h(p["label"])}</a>' for p in b["profiles"])
     c = b["contact"]
@@ -279,6 +284,7 @@ def page():
 
   <section id="about"><p class="eyebrow">About</p><h2>Background</h2>
     <div class="prose" style="margin-top:12px">{bio}</div>
+    {full_bio}
     <div class="chips">{interests}</div>
     <div class="subhd">Publications at a glance</div>{metrics_strip()}
     <div class="subhd">Roles</div><div class="rows">{roles}</div>

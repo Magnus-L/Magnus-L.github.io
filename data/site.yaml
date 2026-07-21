@@ -32,6 +32,11 @@ bio:
   - "My research is about what drives and hinders the growth of companies, and the effects of such factors on jobs, wages and economic growth. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.)."
   - "I study the economic impact of a range of factors, from technology such as artificial intelligence and public policy (for example on foreign trade) to the role of migrant workers and the servicification of firms. I often employ econometric methods on large de-identified longitudinal and linked employer–employee data."
 
+# Longer, formal biography (hidden behind a toggle), ported from the Google Site's Personal page.
+full_bio:
+  - "Magnus Lodefalk is an associate professor and senior lecturer at Örebro University, as well as affiliated with the Ratio Institute and the Global Labor Organization. He holds a PhD in economics from Örebro University (2013), a BSc in economics from Stockholm University (2000), and a BA in political science from Linnaeus University (2004). He studied abroad at the University of Nottingham (UK), Western University (Canada), and the University of Exeter (UK). In 2013 he received the prestigious Jan Wallander and Tom Hedelius three-year post-doctoral research grant in economics. From 2003 to 2014 he worked at the Swedish National Board of Trade as a senior economic advisor."
+  - "His expertise encompasses the analysis of structural economic change, internationalisation and trade policy. He has conducted capacity building, lectured on international economics, and addressed technological change and labour markets. His published work appears in established academic journals and has informed international organisations and Swedish government policy."
+
 interests: ["AI, technology and work", "Firm growth: drivers and barriers", "Trade and public policy",
             "Migration and the labour market", "Servicification of firms", "Linked employer–employee microdata"]
 
