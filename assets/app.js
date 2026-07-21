@@ -12,3 +12,14 @@
     localStorage.setItem("ml-theme", next);
   });
 })();
+
+/* Anti-spam e-mail: assemble the real address from data-attributes at runtime.
+   The static HTML only carries an obfuscated "(at)"/"(dot)" string, so scrapers
+   never see a live mailto; JS users get a real, clickable link. */
+(function () {
+  document.querySelectorAll("a.email[data-u][data-d]").forEach((a) => {
+    const addr = a.getAttribute("data-u") + "@" + a.getAttribute("data-d");
+    a.setAttribute("href", "mailto:" + addr);
+    if (a.dataset.reveal !== "keep") a.textContent = addr;
+  });
+})();

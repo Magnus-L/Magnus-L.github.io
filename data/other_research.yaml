@@ -1,0 +1,197 @@
+# Other research — trade, migration, services, firm growth, entrepreneurship, environment.
+# Restored in full from magnuslodefalk.com/publications (2026-07-21), every link preserved.
+# Rendered as a collapsible section BEFORE Writing & media. Structure mirrors papers.yaml.
+published:
+  - title: "Stayin' Alive: Export Credit Guarantees and Export Survival"
+    authors: "Lodefalk, M., with A. Tang & M. Yu"
+    year: 2025
+    venue: "Applied Economics Letters (early online)"
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1080/13504851.2025.2549506"}
+      - {label: "ORU WP 10/2022", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2022/wp-10-2022.pdf"}
+      - {label: "Ratio WP 359", url: "https://cms.ratio.se/app/uploads/2022/08/ratio-wokring-paper-359.pdf"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/11GrepauG-ACCWDyaCHDY-YDjrTOVSmDQ/view"}
+  - title: "Migrant Employment and the Contract Enforcement Costs of Offshoring"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou, P. Karpaty & R. Kneller"
+    year: 2024
+    venue: "Review of World Economics, 160(3)"
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1007/s10290-023-00519-z"}
+      - {label: "ORU WP 7/2016", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2016/wp-7-2016.pdf"}
+      - {label: "Ratio WP 282", url: "https://cms.ratio.se/app/uploads/2016/12/ratio-wp-282.-new-version-1.pdf"}
+      - {label: "GLO DP 1064", url: "https://www.econstor.eu/bitstream/10419/251270/1/GLO-DP-1064.pdf"}
+  - title: "Economic Determinants of Attitudes toward Migration: Firm-level Evidence from Europe"
+    authors: "Lodefalk, M., with L. Baccini & R. Sabolova"
+    year: 2024
+    venue: "International Organization, 78(1)"
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1017/S0020818323000255"}
+  - title: "Mitigating Information Frictions in Trade: Evidence from Export Credit Guarantees"
+    authors: "Lodefalk, M., with N. Agarwal, J. M. L. Chan, A. Tang, S. Tano & Z. Wang"
+    year: 2023
+    venue: "Journal of International Economics, 145"
+    coverage: [{name: "VoxEU"}, {name: "VD-tidningen"}, {name: "Ratio Dialogue"}]
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1016/j.jinteco.2023.103831"}
+      - {label: "ORU WP 12/2018", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2018/wp-12-2018.pdf"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1vDw0pch3FoXcc66izLByqZ6HyjDmpm4n/view"}
+  - title: "Business Angels and Firm Performance: First Evidence from Population Data"
+    authors: "Lodefalk, M., with F. W. Andersson"
+    year: 2023
+    venue: "PLoS ONE, 18(3)"
+    coverage: [{name: "SR Ekonomiekot"}, {name: "SR P4 Örebro"}]
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1371/journal.pone.0283690"}
+      - {label: "ORU WP 15/2020", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2020/wp-15-2020.pdf"}
+      - {label: "Ratio WP 342", url: "https://ratio.se/app/uploads/2020/12/ratio-working-paper-no.-342.pdf"}
+  - title: "International Trade and Labor Market Integration of Immigrants"
+    authors: "Lodefalk, M., with F. Sjöholm & A. Tang"
+    year: 2022
+    venue: "The World Economy, 45(6)"
+    coverage: [{name: "Tidningen Näringsliv"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1111/twec.13240"}
+      - {label: "ORU WP 7/2020", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2020/wp-7-2020.pdf"}
+      - {label: "Ratio WP 335", url: "https://ratio.se/app/uploads/2020/08/ratio-working-paper-no.-335.pdf"}
+      - {label: "IFN WP 1343", url: "https://www.ifn.se/eng/publications/wp/2020/1343"}
+      - {label: "GLO DP 0659", url: "https://www.econstor.eu/bitstream/10419/224143/1/GLO-DP-0659.pdf"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1_2ugupdRxwBQTfjBnnGWJI4AXXNRuXk-/view"}
+  - title: "A Literature Review of the Nexus between Migration and Internationalization"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou"
+    year: 2021
+    venue: "Journal of International Trade & Economic Development, 30(3)"
+    coverage: [{name: "VoxEU"}, {name: "Dagens Nyheter"}, {name: "Aftonbladet"}, {name: "Delmi"}]
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1080/09638199.2021.1878257"}
+      - {label: "ORU WP 11/2018", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2018/wp-11-2018.pdf"}
+      - {label: "Ratio WP 302", url: "http://ratio.se/app/uploads/2017/12/wp-302.pdf"}
+      - {label: "GLO DP 0287", url: "https://www.econstor.eu/bitstream/10419/188929/1/GLO-DP-0287.pdf"}
+  - title: "Migration and Servicification: Do Immigrant Employees Spur Firm Exports of Services?"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou"
+    year: 2019
+    venue: "The World Economy, 42(11)"
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1111/twec.12838"}
+      - {label: "ORU WP 6/2015", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2015/wp-6-2015.pdf"}
+      - {label: "Ratio WP 298", url: "http://ratio.se/app/uploads/2017/12/ah_ml_migration_and_servification_298.pdf"}
+      - {label: "Ent. Forum WP 27", url: "https://entreprenorskapsforum.se/wp-content/uploads/2014/11/WP_27.pdf"}
+  - title: "The Impact of Hiring Top Workers on Productivity: What is the Role of Absorptive Capacity?"
+    authors: "Lodefalk, M., with A. Tang"
+    year: 2018
+    venue: "Applied Economics Letters, 25(20)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1080/13504851.2017.1422594"}
+      - {label: "ORU WP 2/2017", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2017/wp-2-2017.pdf"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1ELqBEF_7zAsZJ5djx0orPzNySmu-WhoD/view"}
+  - title: "Female Top Management in Family Firms and Non-family Firms: Evidence from Total Population Data"
+    authors: "Lodefalk, M., with F. Andersson, D. Johansson, J. Karlsson & A. Poldahl"
+    year: 2018
+    venue: "International Journal of Entrepreneurship and Small Business, 35(3)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1504/IJESB.2018.095903"}
+  - title: "The Characteristics of Family Firms: Exploiting Information on Ownership, Kinship and Governance Using Total Population Data"
+    authors: "Lodefalk, M., with F. Andersson, D. Johansson, J. Karlsson & A. Poldahl"
+    year: 2018
+    venue: "Small Business Economics, 51(3)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1007/s11187-017-9947-6"}
+      - {label: "ORU WP 1/2017", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2017/wp-1-2017.pdf"}
+  - title: "Recruiting for Small Business Growth: Micro-level Evidence"
+    authors: "Lodefalk, M., with A. Gidehag"
+    year: 2017
+    venue: "International Review of Entrepreneurship, 15(2)"
+    links:
+      - {label: "Article", url: "https://www.senatehall.com/entrepreneurship?article=571"}
+      - {label: "ORU WP 6/2016", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2016/wp-6-2016.pdf"}
+      - {label: "Ratio WP 280", url: "http://ratio.se/app/uploads/2016/12/ag_ml_recruiting_for_small_business_growth_280.pdf"}
+      - {label: "HUI WP 119", url: "https://swopec.hhs.se/huiwps/abs/huiwps0119.htm"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1DYy7c6zmGN2Dz1wjbIkTANBGDFrDEQhx/view"}
+  - title: "Servicification of Firms and Trade Policy Implications"
+    authors: "Lodefalk, M."
+    year: 2017
+    venue: "World Trade Review, 16(1)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1017/S147474561600029X"}
+      - {label: "ORU WP 1/2015 (rev.)", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2015/wp-1-2015-revised-may-2016.pdf"}
+  - title: "Temporary Expats for Exports: Micro-Level Evidence"
+    authors: "Lodefalk, M."
+    year: 2016
+    venue: "Review of World Economics, 152(4)"
+    coverage: [{name: "VoxEU"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1007/s10290-016-0254-0"}
+      - {label: "ORU WP 4/2014", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2014/wp-4-2014.pdf"}
+      - {label: "Nat. Board of Trade", url: "https://www.kommers.se/In-English/Publications/2015/How-Cross-Border-Movement-of-Persons-Facilitates-Trade/"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1cyISrovn1YcpV38DfMfke1TSJsYooNVW/view"}
+  - title: "Migrants' Influence on Firm-level Exports"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou"
+    year: 2016
+    venue: "Journal of Industry, Competition and Trade, 16(4)"
+    coverage: [{name: "Dagens Nyheter"}, {name: "Svenska Dagbladet"}, {name: "The Local"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1007/s10842-015-0215-7"}
+      - {label: "ORU WP 6/2011", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2011/wp-6-2011.pdf"}
+      - {label: "Lund WP 2011:39", url: "https://swopec.hhs.se/lunewp/abs/lunewp2011_039.htm"}
+      - {label: "Appendix", url: "https://drive.google.com/file/d/1xEb9GFl50mZtQmDLJakSwyKctnYbmbaj/view"}
+  - title: "The Brexit Trade Disruption Revisited"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou"
+    year: 2016
+    venue: "Estey Journal of International Law and Trade Policy, 17(1)"
+    coverage: [{name: "Financial Times"}, {name: "Dagens Industri"}]
+    links:
+      - {label: "PDF (DiVA)", url: "http://oru.diva-portal.org/smash/get/diva2:937568/FULLTEXT01.pdf"}
+  - title: "Trade, Migration and Integration: Evidence and Policy Implications"
+    authors: "Lodefalk, M., with A. Hatzigeorgiou"
+    year: 2015
+    venue: "The World Economy, 38(12)"
+    coverage: [{name: "Uppsala Nya Tidning"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1111/twec.12236"}
+      - {label: "ORU WP 5/2014", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2014/wp-5-2014.pdf"}
+  - title: "The Role of Services for Manufacturing Firm Exports"
+    authors: "Lodefalk, M."
+    year: 2014
+    venue: "Review of World Economics, 150(1)"
+    coverage: [{name: "VoxEU"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1007/s10290-013-0171-4"}
+      - {label: "ORU WP 10/2012", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2012/wp-10-2012.pdf"}
+  - title: "Servicification of Manufacturing: Evidence from Sweden"
+    authors: "Lodefalk, M."
+    year: 2013
+    venue: "International Journal of Economics and Business Research, 6(1)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1504/IJEBR.2013.054855"}
+      - {label: "ORU WP 3/2010", url: "https://www.oru.se/globalassets/oru-sv/institutioner/hh/workingpapers/workingpapers2010/wp-3-2010.pdf"}
+      - {label: "Nat. Board of Trade", url: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2010/skriftserien/report-2010-1-servicification-of-swedish-manufacturing.pdf"}
+  - title: "A Global Baltic: Potential Gains from Trade Liberalisation in the Baltic Sea States"
+    authors: "Lodefalk, M., with S. Kinnman"
+    year: 2009
+    venue: "Baltic Journal of Economics, 9(1)"
+    links:
+      - {label: "DOI", url: "https://doi.org/10.1080/1406099X.2009.10840453"}
+  - title: "What is at Stake in the Doha Round?"
+    authors: "Lodefalk, M., with S. Kinnman"
+    year: 2007
+    venue: "The World Economy, 30(8)"
+    coverage: [{name: "Dagens Nyheter"}]
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1111/j.1467-9701.2007.01045.x"}
+      - {label: "Nat. Board of Trade", url: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2006/rapporter/report-economic-implication-of-the-doha-round.pdf"}
+  - title: "Reviewing Proposals for a World Environmental Organisation"
+    authors: "Lodefalk, M., with J. Whalley"
+    year: 2002
+    venue: "The World Economy, 25(5)"
+    links:
+      - {label: "DOI", url: "http://dx.doi.org/10.1111/1467-9701.00452"}
+  - title: "Climate Measures and WTO Rules on Subsidies"
+    authors: "Lodefalk, M., with M. Storey"
+    year: 2005
+    venue: "Journal of World Trade"
+    links:
+      - {label: "Article", url: "https://www.kluwerlawonline.com/abstract.php?area=Journals&id=TRAD2005005"}
+
+# Work in progress outside the AI programme (item 2: capture work with Maria, and services/FDI).
+wip:
+  - {title: "Socio-Economic and Health Consequences of Delayed Puberty", authors: "with M. Lodefalk et al."}
+  - {title: "Exports and FDI among Services Firms", authors: "with H. Kyvik-Nordås & A. Tang"}

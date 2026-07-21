@@ -1,0 +1,10 @@
+# Citation metrics — cached snapshot from Google Scholar.
+# Refresh with: python3 scripts/refresh_metrics.py  (then rebuild + push).
+# Paper counts are derived automatically in build.py from the YAML, not stored here.
+source: "Google Scholar"
+scholar_url: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"
+as_of: "2026-07-21"
+citations: 1431
+citations_since: 800          # since 2021
+h_index: 16
+i10_index: 23

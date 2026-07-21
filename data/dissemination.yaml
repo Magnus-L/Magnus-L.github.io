@@ -1,0 +1,95 @@
+# Dissemination archive — popular writing + media, restored in full with every link
+# from magnuslodefalk.com/dissemination (2026-07-21). Rendered as a clickable archive.
+# writing[]: {year, title, outlet, href?}   media[]: {year, outlet, desc, href?}
+
+writing:
+  - {year: 2026, title: "AI Is Not Reducing Employment but Rather Who Gets Hired", outlet: "ProMarket (Stigler Center, Chicago Booth), with Löthman, Koch & Engberg", href: "https://www.promarket.org/2026/06/17/ai-is-not-reducing-employment-but-rather-who-gets-hired/"}
+  - {year: 2025, title: "Algoritmer för allmän nytta", outlet: "Expert Group on Public Economics (ESO), with Engberg & Tang", href: "https://eso.expertgrupp.se/rapporter/2025_2_-algoritmer-for-allman-nytta/"}
+  - {year: 2025, title: "AI i offentlig sektor", outlet: "Ekonomisk Debatt, with Engberg, Rydén & Tang", href: "https://www.nationalekonomi.se/artikel/ai-i-offentlig-sektor/"}
+  - {year: 2024, title: "Artificiell intelligens och jobben (book)", outlet: "Ratio", href: "https://www.adlibris.com/se/bok/artificiell-intelligens-och-jobben-9789180598750"}
+  - {year: 2021, title: "EU Digital Market Regulations: Rule-Maker or Deal-Breaker?", outlet: "TIISA Policy Brief, with Kyvik-Nordås & Wernberg", href: "http://oru.diva-portal.org/smash/get/diva2:1624226/FULLTEXT01.pdf"}
+  - {year: 2021, title: "Migration can Play a Role in the Post-Pandemic Reboot of Global Trade", outlet: "CEPR VoxEU, with Alm & Hatzigeorgiou", href: "https://voxeu.org/article/migration-and-post-pandemic-reboot-global-trade"}
+  - {year: 2020, title: "Stå på giganters axlar", outlet: "Ekonomisk Debatt (editorial)", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/48-5-led.pdf"}
+  - {year: 2020, title: "Digital Technologies, Services and the Fourth Industrial Revolution", outlet: "TIISA Working Paper 2020-02", href: "https://iit.adelaide.edu.au/system/files/media/documents/2020-04/TIISA%20Working%20Paper%20022020_0.pdf"}
+  - {year: 2020, title: "Globalization on Hold or in Reverse?", outlet: "TIISA Policy Brief 2020-1", href: "https://iit.adelaide.edu.au/news/list/2020/04/09/globalization-on-hold-or-in-reverse"}
+  - {year: 2020, title: "Globalisering, var god dröj", outlet: "Kvartal", href: "https://kvartal.se/artiklar/hur-lange-backar-globaliseringen/"}
+  - {year: 2019, title: "The Effects of Export Credit Guarantees on Firm Performance", outlet: "CEPR VoxEU, with Agarwal, Stenberg, Tang, Tano & Wang", href: "https://voxeu.org/article/effects-export-credit-guarantees-firm-performance"}
+  - {year: 2019, title: "Utrikeshandel, löner och rörlighet", outlet: "En dynamisk arbetsmarknad (Dialogos), with Kyvik-Nordås & Tang", href: "https://www.dialogosforlag.se/bocker/samhallsfragor/en-dynamisk-arbetsmarknad.html"}
+  - {year: 2019, title: "Statliga garantier i utrikeshandeln", outlet: "Ekonomisk Debatt, with Tang & Tano", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/47-8-mlatst.pdf"}
+  - {year: 2018, title: "Den trumpska hästen", outlet: "Ekonomisk Debatt (editorial)", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/46-5-led.pdf"}
+  - {year: 2018, title: "Svenska affärsänglar: hur lyckas de?", outlet: "Ekonomisk Debatt, with F. W. Andersson", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/46-3-fwaml.pdf"}
+  - {year: 2017, title: "Behovet av en ny handelspolitik", outlet: "Ekonomisk Debatt (editorial)", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/45-6-led.pdf"}
+  - {year: 2016, title: "Brexflektioner", outlet: "Ekonomisk Debatt, with A. Hatzigeorgiou", href: "http://www.nationalekonomi.se/sites/default/files/NEFfiler/44-6-ahml.pdf"}
+  - {year: 2016, title: "Kunskapsöverföring för tillväxt", outlet: "Growth Analysis (PM 2016:12), with A. Gidehag", href: "https://www.tillvaxtanalys.se/download/18.575ee3d3157b79ea32b605bb/1477038104392/pm_2016_12_Kunskaps%C3%B6verf%C3%B6ring+f%C3%B6r+tillv%C3%A4xt.pdf"}
+  - {year: 2015, title: "Migration kan främja internationalisering", outlet: "Ekonomiska Samfundets Tidskrift, with A. Hatzigeorgiou", href: "http://static.ecome.fi/upload/6309/webbversion%20ESF%202015.pdf"}
+  - {year: 2015, title: "Cross-Border Movement of Persons Stimulates Trade", outlet: "CEPR VoxEU, with Anér & Graneli", href: "https://voxeu.org/article/cross-border-movement-persons-stimulates-trade"}
+  - {year: 2015, title: "Utlandsfödda kan främja företagens export", outlet: "Ekonomisk Debatt, with A. Hatzigeorgiou", href: "http://www.nationalekonomi.se/sites/default/files/NEFfiler/43-6-ahml.pdf"}
+  - {year: 2015, title: "Migration och företagens internationalisering", outlet: "Delmi (Kunskapsöversikt 2015:4), with A. Hatzigeorgiou", href: "http://www.delmi.se/global-migration#!/migration-och-foretagens-internationalisering"}
+  - {year: 2015, title: "Atithi Devo Bhava? India's Tourist Visa-on-Arrival", outlet: "Observer Research Foundation (Issue Brief 91), with N. Agarwal", href: "https://www.orfonline.org/research/atithi-devo-bhava/"}
+  - {year: 2015, title: "Getting More out of India's Tourist Visa", outlet: "Ideas for India (IGC), with N. Agarwal", href: "https://www.ideasforindia.in/topics/trade/getting-more-out-of-indias-tourist-visa-on-arrival-scheme.html"}
+  - {year: 2015, title: "How Cross-Border Movement of Persons Facilitates Trade", outlet: "National Board of Trade (2015:2), with A. Graneli", href: "https://www.kommers.se/In-English/Publications/2015/How-Cross-Border-Movement-of-Persons-Facilitates-Trade/"}
+  - {year: 2015, title: "Tear Down the Trade Policy Silos!", outlet: "CEPR VoxEU", href: "https://voxeu.org/article/servicification-manufacturing-and-trade-policy"}
+  - {year: 2014, title: "Utlandsfödda och företagens internationalisering", outlet: "Swedish Entrepreneurship Forum (Globalisation Report 7), with A. Hatzigeorgiou", href: "https://entreprenorskapsforum.se/wp-content/uploads/2014/10/GloFo_Utlandsfodda_rapport_webb.pdf"}
+  - {year: 2013, title: "Hur undervisar vi i nationalekonomi?", outlet: "Ekonomisk Debatt (Forum)", href: "https://www.nationalekonomi.se/sites/default/files/NEFfiler/41-1-ml.pdf"}
+  - {year: 2012, title: "Utlandsfödda främjar företagens utrikeshandel", outlet: "Ekonomisk Debatt, with A. Hatzigeorgiou", href: "https://www.nationalekonomi.se/filer/pdf/40-5-ahml.pdf"}
+  - {year: 2010, title: "Servicification of Swedish Manufacturing", outlet: "National Board of Trade (2010:1)", href: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2010/skriftserien/report-2010-1-servicification-of-swedish-manufacturing.pdf"}
+  - {year: 2007, title: "Potential Gains from Trade Liberalisation in the Baltic Sea Region", outlet: "National Board of Trade, with S. Kinnman", href: "http://kommers.se/upload/Analysarkiv/Arbetsomr%C3%A5den/EUs%20yttre%20handelspolitik/Potential__Gains_from_Trade_Liberalisation_in_the_Baltic_Sea_Region.pdf"}
+  - {year: 2006, title: "Economic Implications of the Doha Round", outlet: "National Board of Trade, with S. Kinnman", href: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2006/rapporter/report-economic-implication-of-the-doha-round.pdf"}
+  - {year: 2005, title: "Climate and Trade Rules: Harmony or Conflict?", outlet: "National Board of Trade", href: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2004/rapporter/report-climate-and-trade-rules.pdf"}
+
+media:
+  - {year: 2026, outlet: "Sveriges Radio", desc: "P1 God Morgon Världen (AI and jobs; students choosing vocational tracks)", href: "https://www.sverigesradio.se/artikel/student-2026-ai-forandrar-jobben-fler-valjer-yrkesutbildning"}
+  - {year: 2026, outlet: "Snacka om AI (podcast)", desc: "Interview: should we fear AI?", href: "https://podcasters.spotify.com/pod/show/snacka-om-ai/episodes/Del-2--Br-vi-vara-rdda-fr-AI--En-AI-forskare-svarar-e3kb3u7"}
+  - {year: 2026, outlet: "Aftonbladet", desc: "AI exposure and job security", href: "https://www.aftonbladet.se/minekonomi/a/6qob00/sakra-jobbet-inte-langre-sakert-hog-ai-exponering"}
+  - {year: 2026, outlet: "TV4 Nyhetsmorgon", desc: "Studio interview on AI and work", href: "https://www.tv4play.se/video/7d1250d88d5e61a5e2cf/fredag-22-maj"}
+  - {year: 2026, outlet: "Sveriges Radio P1 Morgon", desc: "Interview", href: "https://www.sverigesradio.se/avsnitt/2794032"}
+  - {year: 2026, outlet: "Sveriges Radio P3 Nyheter", desc: "Harder for young people to find jobs after 'safe' programmes", href: "https://www.sverigesradio.se/artikel/blir-allt-svarare-for-unga-att-fa-jobb-efter-sakra-utbildningar"}
+  - {year: 2026, outlet: "Tidningen Näringslivet", desc: "AI and entry-level hiring", href: "https://www.tn.se/arbetsmarknad/47190/nu-stanger-ai-dorren-for-nyutexade-ingen-far-borja-som-junior/"}
+  - {year: 2026, outlet: "Arbetsvärlden", desc: "Young workers and generative AI", href: "https://www.arbetsvarlden.se/unga-blev-forlorare-nar-chatgpt-forandrade-arbetet/"}
+  - {year: 2026, outlet: "Dagens Nyheter", desc: "Op-ed: yes, AI threatens young people's jobs, but not as we thought", href: "https://www.dn.se/debatt/ja-ai-hotar-ungas-jobb-men-inte-som-vi-trott/"}
+  - {year: 2026, outlet: "Svenska Dagbladet", desc: "The scariest curve: AI takes jobs from the young", href: "https://www.svd.se/a/9pzVaM/laskigaste-kurvan-visar-ai-tar-jobb-fran-unga-i-sverige"}
+  - {year: 2026, outlet: "Aftonbladet", desc: "Moving for work in an AI labour market", href: "https://www.aftonbladet.se/minekonomi/a/d4nW81/rosanna-27-fick-flytta-40-mil-for-att-fa-jobb"}
+  - {year: 2026, outlet: "SVT Nyheter Jämtland", desc: "How AI affects the labour market", href: "https://www.svt.se/nyheter/lokalt/jamtland/sa-paverkar-ai-arbetsmarknaden-och-sa-ska-du-tanka-om-ditt-jobb"}
+  - {year: 2026, outlet: "Nya Lidköpings Tidning", desc: "How AI is changing the labour market", href: "https://www.nlt.se/2026/01/02/sa-forandrar-ai-arbetsmarknaden-forskaren-kommer-att-vara-till-stor-nytta-4b40d/"}
+  - {year: 2025, outlet: "Publikt", desc: "Feature: everyone is affected as AI changes the labour market", href: "https://www.publikt.se/fordjupning/pa-djupet/alla-paverkas-nar-ai-forandrar-arbetsmarknaden-27542"}
+  - {year: 2025, outlet: "Sveriges Radio", desc: "Ekonomiekot Extra: will AI take your job?", href: "https://www.sverigesradio.se/avsnitt/kommer-ai-ta-ditt-jobb"}
+  - {year: 2025, outlet: "SVT1", desc: "'Folkets AI', part 4", href: "https://www.svtplay.se/folkets-ai"}
+  - {year: 2025, outlet: "Göteborgs-Posten", desc: "Jobs threatened by AI within 20 years", href: "https://www.gp.se/ekonomi/jobben-som-hotas-av-ai-inom-20-ar.922f02e9-ab00-442b-916f-188e011a5078"}
+  - {year: 2025, outlet: "Dagens Samhälle", desc: "Labour shortages could be eased with AI", href: "https://www.dagenssamhalle.se/samhalle-och-valfard/digitalisering/ny-rapport-arbetskraftsbrist-kan-bli-hanterbar-med-hjalp-av-ai/"}
+  - {year: 2025, outlet: "Dagens Industri", desc: "Op-ed: lack of AI leadership holds back the public sector", href: "https://www.di.se/debatt/brist-pa-ai-ledarskap-hammar-offentlig-sektor/"}
+  - {year: 2025, outlet: "Sveriges Radio", desc: "Interview (from 101:25)", href: "https://www.sverigesradio.se/avsnitt/2570335"}
+  - {year: 2025, outlet: "Realtid", desc: "Surprising AI finding on worker outcomes", href: "https://www.realtid.se/it-tech/overraskande-ai-fyndet-man-paverkas/"}
+  - {year: 2024, outlet: "Akavia Aspekt", desc: "AI and white-collar careers", href: "https://www.akaviaaspekt.se/karriar/kompetensutveckling/sa-paverkas-dina-karriarmojligheter-av-ai/"}
+  - {year: 2024, outlet: "Studio Akavia (podcast)", desc: "AI and white-collar jobs", href: "https://www.youtube.com/watch?v=00bymE2fl8s"}
+  - {year: 2024, outlet: "Forskning.se", desc: "AI: competitor or colleague?", href: "https://www.forskning.se/2024/01/16/ai-och-jobben/"}
+  - {year: 2023, outlet: "Sveriges Radio P4 Örebro", desc: "Business angels (from 1:40:20)", href: "https://sverigesradio.se/avsnitt/2162866"}
+  - {year: 2023, outlet: "TV4 Efter Fem", desc: "AI could replace millions of jobs", href: "https://www.tv4play.se/program/efter-fem/storbank-ai-kan-ers%C3%A4tta-miljontals-jobb/20490855"}
+  - {year: 2023, outlet: "SVT Ekonomibyrån", desc: "Now AI takes your job (3:30–4:30)", href: "https://www.svtplay.se/video/e4okP4D/ekonomibyran/nu-tar-ai-ditt-jobb"}
+  - {year: 2023, outlet: "Universum (Branding Geeks podcast)", desc: "The rise of AI and work", href: "https://universumglobal.com/library/the-rise-of-ai/"}
+  - {year: 2020, outlet: "Finago Blog", desc: "How AI is changing the finance function", href: "https://blog.finago.com/se/sa-forandrar-ai-ekonomifunktionen"}
+  - {year: 2020, outlet: "Nerikes Allehanda", desc: "Why the US election matters for Sweden", href: "https://www.na.se/artikel/darfor-spelar-valet-mellan-trump-och-biden-roll-for-dig-sa-paverkas-sverige"}
+  - {year: 2020, outlet: "Dagens Industri", desc: "Op-ed: a new globalisation (with Björling, Hatzigeorgiou & Sjöholm)", href: "https://www.di.se/debatt/en-ny-globalisering/"}
+  - {year: 2020, outlet: "VD-tidningen", desc: "Trade and job switching", href: "https://vdtidningen.se/handel-med-utlandet-okar-intresset-for-byte-av-jobb/"}
+  - {year: 2019, outlet: "VD-tidningen", desc: "Export credit guarantees boost exports", href: "https://vdtidningen.se/statliga-kreditgarantier-leder-till-mer-export/"}
+  - {year: 2019, outlet: "Ingenjören", desc: "Can academics be replaced by AI and robots?", href: "https://www.ingenjoren.se/2019/08/16/forskare-undersoker-om-akademiker-kan-ersattas-med-ai-och-robotar/"}
+  - {year: 2018, outlet: "Sveriges Radio", desc: "Godmorgon Världen, P1 (US–China tariffs)", href: "https://sverigesradio.se/sida/artikel.aspx?programid=438&artikel=7020609"}
+  - {year: 2018, outlet: "Sveriges Radio", desc: "Ekonomiekot, P1 (business angels)", href: "https://sverigesradio.se/artikel/6946642"}
+  - {year: 2018, outlet: "Sveriges Radio P4 Örebro", desc: "US steel tariffs (from 13:30)", href: "https://sverigesradio.se/sida/artikel.aspx?programid=159&artikel=6903683"}
+  - {year: 2017, outlet: "Sveriges Radio Studio Ett", desc: "US migration restrictions (from 20:30)", href: "https://sverigesradio.se/sida/artikel.aspx?programid=1637&artikel=6619118"}
+  - {year: 2016, outlet: "Financial Times", desc: "Letter", href: "https://www.ft.com/content/b8e2d758-3481-11e6-ad39-3fee5ffe5b5b"}
+  - {year: 2016, outlet: "Dagens Industri", desc: "Op-ed: don't choke off British labour (immigration & exports)", href: "https://www.di.se/nyheter/tva-ekonomiforskare-stryp-inte-brittisk-arbetskraft/"}
+  - {year: 2016, outlet: "Hallands Nyheter", desc: "The benefits of migration", href: "https://www.hn.se/med-migrationens-f%C3%B6rdelar-i-fokus-1.1766528"}
+  - {year: 2015, outlet: "Dagens Nyheter", desc: "Op-ed: immigration raises Sweden's exports and growth", href: "https://www.dn.se/debatt/invandringen-okar-sveriges-export-och-gynnar-tillvaxten/"}
+  - {year: 2015, outlet: "Aftonbladet", desc: "Column: immigration is profitable", href: "https://www.aftonbladet.se/nyheter/kolumnister/a/ngVbKx/invandringen-ar-lonsam"}
+  - {year: 2015, outlet: "Scroll.in", desc: "India's visa-on-arrival scheme", href: "https://scroll.in/article/729948/indias-visa-on-arrival-scheme-to-boost-tourism-is-not-quite-the-success-it-was-meant-to-be"}
+  - {year: 2015, outlet: "Uppsala Nya Tidning", desc: "Op-ed: migration gives a boost", href: "https://www.unt.se/asikt/debatt/invandring-ger-skjuts-3663860.aspx"}
+  - {year: 2015, outlet: "SVT Nyheter", desc: "Immigration favours growth", href: "https://www.svt.se/nyheter/inrikes/invandringen-gynnar-tillvaxten"}
+  - {year: 2014, outlet: "Svenska Dagbladet", desc: "Op-ed: hire foreign-born and raise exports", href: "https://www.svd.se/anstall-utlandsfodda--och-oka-exporten"}
+  - {year: 2013, outlet: "Sundsvalls Tidning", desc: "Foreign-born can raise firm exports", href: "https://www.st.nu/artikel/forskare-invandrare-kan-oka-foretagets-export-1"}
+  - {year: 2013, outlet: "Svenska Dagbladet", desc: "Hire foreign-born and raise exports", href: "https://www.svd.se/forskarens-rad-anstall-utlandsfodda-och-oka-exporten"}
+  - {year: 2013, outlet: "Dagens Industri", desc: "Foreign-born raise Swedish exports", href: "https://www.di.se/artiklar/2013/11/11/utlandsfodda-okar-svensk-export/"}
+  - {year: 2013, outlet: "Dagens Nyheter", desc: "Immigration raises firm exports", href: "https://www.dn.se/ekonomi/invandring-okar-foretags-export/"}
+  - {year: 2013, outlet: "The Local", desc: "Each immigrant benefits Swedish exports", href: "https://www.thelocal.se/20131111/each-immigrant-benefits-swedish-export"}
+  - {year: 2013, outlet: "SVT Nyheter Skåne", desc: "Immigration favours exports", href: "https://www.svt.se/nyheter/vetenskap/invandring-gynnar-export"}
+  - {year: 2012, outlet: "Sveriges Radio", desc: "Coverage", href: "https://sverigesradio.se/artikel/5257368"}
+  - {year: 2010, outlet: "Veckans Affärer", desc: "Tourism and exports", href: "https://www.va.se/nyheter/2010/01/26/turister-lyfter-exporten/"}

@@ -1,0 +1,28 @@
+# Teaching — current courses only (item 6). Course links preserved (item 10),
+# PhD list restored (collapsible), MSc thesis advice restored (item 11).
+masters:
+  - {name: "Corporate Finance", code: "NA404A", note: "main lecturer, 2018–", href: "https://www.oru.se/english/study/exchange-students/courses/course/economics-corporate-finance-second-cycle-na404a"}
+  - {name: "Globalisation", code: "NA443A", note: "2025–", href: "https://www.oru.se/utbildning/kurser/kurs/nationalekonomi-globalisering-avancerad-niva-na443a"}
+  - {name: "Programming and Data Management for Economics and Finance", code: "NA446A", note: "2025–", href: "https://www.oru.se/english/study/exchange-studies/courses-for-exchange-students/course/economics-programming-and-data-management-for-economics-and-finance-second-cycle-na446a"}
+  - {name: "MSc Thesis", code: "", note: "advisor, 2021–"}
+
+undergrad:
+  - {name: "AI and the (r)evolution of working life", code: "NA170G", note: "initiator & main lecturer, 2024–"}
+  - {name: "Scientific Method (applied econometrics / Stata)", code: "", note: "2020–"}
+  - {name: "BSc Thesis", code: "", note: "advisor, 2019–"}
+
+# Restored verbatim (item 11).
+msc_advice: >-
+  A good topic is often Specific, Engaging, potentially inspired by News, related to the
+  Supervisor's research area, based on Existing knowledge (previous theses and research),
+  and has "enough" Data available.
+
+# Doctoral students supervised (hidden behind a toggle; item 6).
+phd:
+  - {name: "Lydia Löthman", period: "2025–", note: "ongoing"}
+  - {name: "Mark Hellsten", period: "2022–2025", note: "now University of Tübingen"}
+  - {name: "Erik Engberg", period: "2020–2026", note: "MIT postdoc", href: "https://oru.diva-portal.org/smash/record.jsf?pid=diva2%3A2043008"}
+  - {name: "Johan Karlsson", period: "2016–2020", note: "Young Scholar award 2023"}
+  - {name: "Aili Tang", period: "2017–2018", note: "Ratio"}
+  - {name: "Louise Johannesson", period: "2016–2018", note: "OECD"}
+  - {name: "Anton Gidehag", period: "2015–2016", note: "Growth Analysis (Tillväxtanalys)"}
