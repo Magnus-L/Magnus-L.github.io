@@ -22,9 +22,9 @@ lede: >-
   technology and artificial intelligence, public policy and trade, migration, and the servicification of firms.
 
 actions:
-  - {label: "CV (PDF)", href: "https://magnus-l.github.io/cv/Lodefalk_CV.pdf", primary: true}
+  - {label: "AI-Econ Lab", href: "https://ai-econlab.com", primary: true}
+  - {label: "CV (PDF)", href: "https://magnus-l.github.io/cv/Lodefalk_CV.pdf"}
   - {label: "Google Scholar", href: "https://scholar.google.se/citations?user=z0WQ2JcAAAAJ"}
-  - {label: "AI-Econ Lab", href: "https://ai-econlab.com"}
 
 # Bio paragraphs. [text](url) becomes a link (item 8 seminar/brown-bag, item 9 AISCAF).
 bio:
@@ -42,8 +42,14 @@ roles:
   - {label: "Ratio Institute", note: "affiliated researcher", href: "http://ratio.se/medarbetare/magnus-lodefalk/"}
   - {label: "Global Labor Organization", note: "fellow", href: "https://glabor.org/user/magnus_l/"}
 
-# Press kit (item 13): downloadable photos, varied moods, one credit.
+# Press kit (item 13): short bio + downloadable photos, one credit.
 press:
+  bio: >-
+    Magnus Lodefalk is an associate professor of economics at Örebro University and the Ratio
+    Institute, and a fellow of the Global Labor Organization. He initiated and co-directs the
+    AI-Econ Lab and co-leads AISCAF, the WASP-HS research cluster on AI, structural change and
+    the future of work. His research uses large linked employer–employee data to study how
+    artificial intelligence, trade and migration shape jobs, wages and the growth of firms.
   credit: "Photos: Jesper Mattsson / Örebro University. Free to use with credit."
   photos:
     - {slug: "neutral",  label: "Neutral", w: "3:2"}

@@ -154,7 +154,8 @@ details.more[open]>summary::before{transform:rotate(90deg)}
 .linkgrid .lk{padding:4px 0;font-size:14px;line-height:1.4}
 .gloss{color:var(--faint);font-size:12.5px}
 
-/* press photos */
+/* short bio + press photos */
+.pressbio{font-size:15px;color:var(--ink-2);line-height:1.6;margin:6px 0 0;max-width:70ch}
 .press{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px;align-items:start}
 @media(max-width:560px){.press{grid-template-columns:repeat(2,1fr)}}
 .shot{display:block;align-self:start;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--raise)}
