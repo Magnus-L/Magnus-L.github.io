@@ -193,11 +193,12 @@ def press_kit():
                   f'download title="Download — {h(pr["credit"])}">'
                   f'<img src="{thumb}" alt="Magnus Lodefalk — {h(ph["label"].lower())}" loading="lazy">'
                   f'<span class="cap">{h(ph["label"])}</span></a>')
-    bio = f'<p class="pressbio" style="margin-top:0">{h(pr["bio"])}</p>' if pr.get("bio") else ""
-    return (f'<details class="more"><summary>Press kit: short bio and photos</summary>'
-            f'<div class="more-body">{bio}'
+    bio = f'<p class="pressbio">{h(pr["bio"])}</p>' if pr.get("bio") else ""
+    return (f'<div class="pcard"><p class="eyebrow" style="margin:0 0 8px">Press kit</p>{bio}'
+            f'<details class="more"><summary>Press photos</summary><div class="more-body">'
+            f'<div class="press">{shots}</div>'
             f'<p class="note">Click any photo to download a high-resolution version. {h(pr["credit"])}</p>'
-            f'<div class="press">{shots}</div></div></details>')
+            f'</div></details></div>')
 
 # ---------- page ----------
 def page():
@@ -281,13 +282,14 @@ def page():
     <div style="margin-top:14px">{resource_groups()}</div></section>
 
   <section id="about"><p class="eyebrow">About</p><h2>Background</h2>
-    <div class="prose" style="margin-top:12px">{bio}</div>
-    {full_bio}
+    <div class="aboutgrid">
+      <div class="abtmain"><div class="prose">{bio}</div>{full_bio}</div>
+      <aside class="abtside">{press_kit()}</aside>
+    </div>
     <div class="chips">{interests}</div>
     <div class="subhd">Publications at a glance</div>{metrics_strip()}
     <div class="subhd">Roles</div><div class="rows">{roles}</div>
-    <div class="subhd">Personal</div><div class="prose">{ppara}</div>
-    {press_kit()}</section>
+    <div class="subhd">Personal</div><div class="prose">{ppara}</div></section>
 
   <section id="contact"><p class="eyebrow">Elsewhere &amp; contact</p><h2>Find me</h2>
     <div class="linkwrap">{profiles}</div>

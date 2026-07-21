@@ -154,8 +154,15 @@ details.more[open]>summary::before{transform:rotate(90deg)}
 .linkgrid .lk{padding:4px 0;font-size:14px;line-height:1.4}
 .gloss{color:var(--faint);font-size:12.5px}
 
+/* About: bio on the left, press-kit card on the right */
+.aboutgrid{display:grid;grid-template-columns:1fr 250px;gap:26px;align-items:start;margin-top:12px}
+@media(max-width:640px){.aboutgrid{grid-template-columns:1fr}}
+.pcard{border:1px solid var(--border);border-radius:10px;padding:15px 16px;background:var(--raise)}
+.pcard .pressbio{margin:0}
+.abtside .press{grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+
 /* short bio + press photos */
-.pressbio{font-size:15px;color:var(--ink-2);line-height:1.6;margin:6px 0 0;max-width:70ch}
+.pressbio{font-size:14px;color:var(--ink-2);line-height:1.55;margin:6px 0 0}
 .press{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:14px;align-items:start}
 @media(max-width:560px){.press{grid-template-columns:repeat(2,1fr)}}
 .shot{display:block;align-self:start;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--raise)}
