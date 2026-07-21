@@ -24,12 +24,14 @@ published:
     authors: "Lodefalk, M., with L. Baccini & R. Sabolova"
     year: 2024
     venue: "International Organization, 78(1)"
+    featured: true
     links:
       - {label: "DOI", url: "https://doi.org/10.1017/S0020818323000255"}
   - title: "Mitigating Information Frictions in Trade: Evidence from Export Credit Guarantees"
     authors: "Lodefalk, M., with N. Agarwal, J. M. L. Chan, A. Tang, S. Tano & Z. Wang"
     year: 2023
     venue: "Journal of International Economics, 145"
+    featured: true
     coverage: [{name: "VoxEU"}, {name: "VD-tidningen"}, {name: "Ratio Dialogue"}]
     links:
       - {label: "DOI", url: "https://doi.org/10.1016/j.jinteco.2023.103831"}
@@ -152,6 +154,7 @@ published:
     authors: "Lodefalk, M."
     year: 2014
     venue: "Review of World Economics, 150(1)"
+    featured: true
     coverage: [{name: "VoxEU"}]
     links:
       - {label: "DOI", url: "http://dx.doi.org/10.1007/s10290-013-0171-4"}

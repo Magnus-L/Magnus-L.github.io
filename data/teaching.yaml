@@ -7,7 +7,7 @@ masters:
   - {name: "MSc Thesis", code: "", note: "advisor, 2021–"}
 
 undergrad:
-  - {name: "AI and the (r)evolution of working life", code: "NA170G", note: "initiator & main lecturer, 2024–"}
+  - {name: "AI and the (r)evolution of working life", code: "NA170G", note: "initiator & main lecturer, 2024–", href: "https://www.oru.se/utbildning/kurser/kurs/nationalekonomi-artificiell-intelligens-och-revolutionen-av-arbetslivet-na170g"}
   - {name: "Scientific Method (applied econometrics / Stata)", code: "", note: "2020–"}
   - {name: "BSc Thesis", code: "", note: "advisor, 2019–"}
 

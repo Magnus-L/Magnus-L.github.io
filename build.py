@@ -86,15 +86,20 @@ def research_ai():
 
 def research_other():
     pub = OTHER["published"]
+    feat = [p for p in pub if p.get("featured")]
+    rest = [p for p in pub if not p.get("featured")]
     wip = OTHER.get("wip", [])
-    n = len(pub)
-    body  = '<div class="subhd">Published</div>' + "".join(paper_entry(p) for p in pub)
+    out = ""
+    if feat:
+        out += '<div class="subhd">Selected</div>' + "".join(paper_entry(p) for p in feat)
+    body = "".join(paper_entry(p) for p in rest)
     if wip:
         body += ('<div class="subhd">Work in progress</div><ul class="compact">'
                  + "".join(f'<li>{h(w["title"])} <span class="mut">— {h(w["authors"])}</span></li>' for w in wip)
                  + "</ul>")
-    return (f'<details class="more"><summary>Show {n} papers on trade, migration, services '
-            f'and firm growth</summary><div class="more-body">{body}</div></details>')
+    out += (f'<details class="more"><summary>Show {len(rest)} further papers on trade, migration, '
+            f'services and firm growth</summary><div class="more-body">{body}</div></details>')
+    return out
 
 # ---------- writing & media ----------
 def diss_row(d):
@@ -107,17 +112,19 @@ def media_row(m):
     x = f'<a href="{m["href"]}">{label}</a>' if m.get("href") else label
     return f'<div class="row"><span class="y">{h(m["year"])}</span><span class="x">{x}</span></div>'
 
-def writing_media():
-    writing = "".join(diss_row(d) for d in DISS["writing"])
-    med = DISS["media"]
-    recent = [m for m in med if m["year"] >= 2024]
-    older  = [m for m in med if m["year"] <  2024]
-    out  = '<div class="subhd">Popular writing &amp; policy</div><div class="rows">' + writing + "</div>"
-    out += '<div class="subhd">Selected media</div><div class="rows">' + "".join(media_row(m) for m in recent) + "</div>"
-    if older:
-        out += (f'<details class="more"><summary>Earlier media, 2010–2023 ({len(older)} items)</summary>'
-                f'<div class="rows more-body">' + "".join(media_row(m) for m in older) + "</div></details>")
+def _diss_block(items, render, subhd, n=10):
+    """Show the n most recent, put the rest behind a toggle (items are newest-first)."""
+    head = "".join(render(x) for x in items[:n])
+    rest = items[n:]
+    out = f'<div class="subhd">{subhd}</div><div class="rows">{head}</div>'
+    if rest:
+        out += (f'<details class="more"><summary>Show {len(rest)} more</summary>'
+                f'<div class="rows more-body">' + "".join(render(x) for x in rest) + "</div></details>")
     return out
+
+def writing_media():
+    return (_diss_block(DISS["writing"], diss_row, "Popular writing &amp; policy")
+            + _diss_block(DISS["media"], media_row, "Selected media"))
 
 # ---------- teaching ----------
 def course(c):
@@ -186,10 +193,10 @@ def press_kit():
                   f'download title="Download — {h(pr["credit"])}">'
                   f'<img src="{thumb}" alt="Magnus Lodefalk — {h(ph["label"].lower())}" loading="lazy">'
                   f'<span class="cap">{h(ph["label"])}</span></a>')
-    return (f'<div class="subhd">Press photos</div>'
-            f'<p class="note">For journalists: click any photo to download a high-resolution version. '
-            f'Different tones are offered so the image can match the story. {h(pr["credit"])}</p>'
-            f'<div class="press">{shots}</div>')
+    return (f'<details class="more"><summary>Press photos</summary><div class="more-body">'
+            f'<p class="note" style="margin-top:0">For journalists: click any photo to download a '
+            f'high-resolution version. {h(pr["credit"])}</p>'
+            f'<div class="press">{shots}</div></div></details>')
 
 # ---------- page ----------
 def page():
@@ -248,7 +255,6 @@ def page():
     </figure>
   </div>
   <p class="lead" style="margin-top:22px;font-size:17px">{h(b['lede'])}</p>
-  {metrics_strip()}
   </header>
 
   <section id="research"><p class="eyebrow">Research</p><h2>Research on AI</h2>
@@ -271,6 +277,7 @@ def page():
   <section id="about"><p class="eyebrow">About</p><h2>Background</h2>
     <div class="prose" style="margin-top:12px">{bio}</div>
     <div class="chips">{interests}</div>
+    <div class="subhd">Publications at a glance</div>{metrics_strip()}
     <div class="subhd">Roles</div><div class="rows">{roles}</div>
     <div class="subhd">Personal</div><div class="prose">{ppara}</div>
     {press_kit()}</section>
