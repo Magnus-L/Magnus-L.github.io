@@ -28,7 +28,7 @@ actions:
 
 # Bio paragraphs. [text](url) becomes a link (item 8 seminar/brown-bag, item 9 AISCAF).
 bio:
-  - "I am an associate professor at [Örebro University](https://www.oru.se/english/employee/magnus_lodefalk), Sweden, and affiliated with the [Ratio](http://ratio.se/medarbetare/magnus-lodefalk/) research institute and the [Global Labor Organization](https://glabor.org/user/magnus_l/). I initiated and co-direct the [AI-Econ Lab](https://ai-econlab.com), and I co-lead [AISCAF](https://ai-econlab.com), the Swedish research cluster on AI, Structural Change and the Future of Work, financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the [economics seminar and brown-bag series](https://ai-econlab.com) at the university, lab and cluster."
+  - "I am an associate professor at [Örebro University](https://www.oru.se/english/employee/magnus_lodefalk), Sweden, and affiliated with the [Ratio](http://ratio.se/medarbetare/magnus-lodefalk/) research institute and the [Global Labor Organization](https://glabor.org/user/magnus_l/). I initiated and co-direct the [AI-Econ Lab](https://ai-econlab.com), and I co-lead [AISCAF](https://www.aiscaf.se/w/ac/), the Swedish research cluster on AI, Structural Change and the Future of Work, financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the [economics seminar and brown-bag series](https://ai-econlab.com) at the university, lab and cluster."
   - "My research is about what drives and hinders the growth of companies, and the effects of such factors on jobs, wages and economic growth. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.)."
   - "I study the economic impact of a range of factors, from technology such as artificial intelligence and public policy (for example on foreign trade) to the role of migrant workers and the servicification of firms. I often employ econometric methods on large de-identified longitudinal and linked employer–employee data."
 
@@ -37,7 +37,7 @@ interests: ["AI, technology and work", "Firm growth: drivers and barriers", "Tra
 
 roles:
   - {label: "AI-Econ Lab", note: "initiator & co-director", href: "https://ai-econlab.com"}
-  - {label: "AISCAF", note: "co-lead · WASP-HS cluster on AI, Structural Change and the Future of Work", href: "https://ai-econlab.com"}
+  - {label: "AISCAF", note: "co-lead · WASP-HS cluster on AI, Structural Change and the Future of Work", href: "https://www.aiscaf.se/w/ac/"}
   - {label: "EFGI, Örebro University", note: "co-lead, research group", href: "https://www.oru.se/english/employee/magnus_lodefalk"}
   - {label: "Ratio Institute", note: "affiliated researcher", href: "http://ratio.se/medarbetare/magnus-lodefalk/"}
   - {label: "Global Labor Organization", note: "fellow", href: "https://glabor.org/user/magnus_l/"}
