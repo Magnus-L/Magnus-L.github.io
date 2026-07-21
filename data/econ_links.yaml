@@ -68,7 +68,7 @@ groups:
       - {label: "Wilson et al. — good computing practices", href: "https://doi.org/10.1371/journal.pcbi.1005510"}
       - {label: "Lindbeck — building a research environment", href: "http://perseus.iies.su.se/~alind/Links/Assar%27sTenCommandments.pdf", note: "the Ten Commandments"}
       - {label: "Overleaf", href: "https://www.overleaf.com", note: "LaTeX in the browser"}
-      - {label: "Statistics glossary (Lodefalk)", href: "https://magnus-l.github.io/statistics-glossary/", note: "English–Swedish"}
+      - {label: "Statistics glossary (Lodefalk)", href: "https://magnuslodefalk.com/statistics-glossary/", note: "English–Swedish, my own"}
       - {label: "ABS journal rankings", href: "https://charteredabs.org/academic-journal-guide-2021/"}
       - {label: "IDEAS/RePEc rankings", href: "https://ideas.repec.org/top/top.journals.all10.html"}
   - name: "Reading & blogs"

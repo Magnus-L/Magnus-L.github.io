@@ -275,10 +275,16 @@ def page():
     {writing_media()}</section>
 
   <section id="teaching"><p class="eyebrow">Teaching</p><h2>Courses &amp; supervision</h2>
-    {teaching()}</section>
+    {teaching()}
+    <p class="note"><b>For students.</b> A searchable
+      <a href="https://magnuslodefalk.com/statistics-glossary/">English–Swedish statistics glossary</a>
+      (~2,050 terms) I maintain, handy for coursework.</p></section>
 
   <section id="resources"><p class="eyebrow">Resources</p><h2>Economics links</h2>
     <p class="lead">Data, papers, tools and reading I keep coming back to.</p>
+    <p class="note" style="margin-top:12px"><b>My statistics glossary.</b> A searchable
+      <a href="https://magnuslodefalk.com/statistics-glossary/">English–Swedish glossary</a> of ~2,050
+      statistical and econometric terms, free for students and researchers.</p>
     <div style="margin-top:14px">{resource_groups()}</div></section>
 
   <section id="about"><p class="eyebrow">About</p><h2>Background</h2>
