@@ -85,4 +85,4 @@ contact:
   phone: "+46 (0)722 21 73 40"
   address: "Örebro University, SE-701 82 Örebro, Sweden"
 
-build: {emit_cname: false}
+build: {emit_cname: true}
