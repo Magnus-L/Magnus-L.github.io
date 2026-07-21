@@ -193,12 +193,10 @@ def press_kit():
                   f'download title="Download — {h(pr["credit"])}">'
                   f'<img src="{thumb}" alt="Magnus Lodefalk — {h(ph["label"].lower())}" loading="lazy">'
                   f'<span class="cap">{h(ph["label"])}</span></a>')
-    bio = (f'<div class="subhd">Short bio</div><p class="pressbio">{h(pr["bio"])}</p>'
-           if pr.get("bio") else "")
-    return (bio
-            + f'<details class="more"><summary>Press photos</summary><div class="more-body">'
-            f'<p class="note" style="margin-top:0">For journalists: click any photo to download a '
-            f'high-resolution version. {h(pr["credit"])}</p>'
+    bio = f'<p class="pressbio" style="margin-top:0">{h(pr["bio"])}</p>' if pr.get("bio") else ""
+    return (f'<details class="more"><summary>Press kit: short bio and photos</summary>'
+            f'<div class="more-body">{bio}'
+            f'<p class="note">Click any photo to download a high-resolution version. {h(pr["credit"])}</p>'
             f'<div class="press">{shots}</div></div></details>')
 
 # ---------- page ----------
