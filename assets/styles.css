@@ -42,7 +42,7 @@ img{max-width:100%;height:auto}
 .tbtn{background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:999px;
   width:30px;height:30px;cursor:pointer;font-size:13px}
 .tbtn:hover{border-color:var(--accent);color:var(--accent)}
-@media(max-width:560px){.topnav{display:none}}
+@media(max-width:560px){.topbar{gap:10px}.topnav{gap:12px;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}.topnav::-webkit-scrollbar{display:none}.topnav a{font-size:13px;white-space:nowrap}}
 
 /* header block */
 header.hd{padding:44px 0 8px}
