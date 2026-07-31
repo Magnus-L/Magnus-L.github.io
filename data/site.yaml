@@ -18,8 +18,9 @@ affil:
   - {name: "Global Labor Organization", href: "https://glabor.org/user/magnus_l/"}
 
 lede: >-
-  I study what drives and hinders the growth of firms, and the effects on jobs, wages and growth:
-  technology and artificial intelligence, public policy and trade, migration, and the servicification of firms.
+  I study what drives and hinders the growth of firms and what it means for jobs and wages,
+  with a focus on artificial intelligence. My work also covers trade, migration, public policy,
+  and the servicification of firms.
 
 actions:
   - {label: "AI-Econ Lab", href: "https://ai-econlab.com", primary: true}
@@ -29,8 +30,7 @@ actions:
 # Bio paragraphs. [text](url) becomes a link (item 8 seminar/brown-bag, item 9 AISCAF).
 bio:
   - "I am an associate professor at [Örebro University](https://www.oru.se/english/employee/magnus_lodefalk), Sweden, and affiliated with the [Ratio](http://ratio.se/medarbetare/magnus-lodefalk/) research institute and the [Global Labor Organization](https://glabor.org/user/magnus_l/). I initiated and co-direct the [AI-Econ Lab](https://ai-econlab.com), and I co-lead [AISCAF](https://www.aiscaf.se/w/ac/), the Swedish research cluster on AI, Structural Change and the Future of Work, financed by WASP-HS. I also co-lead a research group at Örebro University (EFGI) and coordinate the [economics seminar and brown-bag series](https://ai-econlab.com) at the university, lab and cluster."
-  - "My research is about what drives and hinders the growth of companies, and the effects of such factors on jobs, wages and economic growth. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.)."
-  - "I study the economic impact of a range of factors, from technology such as artificial intelligence and public policy (for example on foreign trade) to the role of migrant workers and the servicification of firms. I often employ econometric methods on large de-identified longitudinal and linked employer–employee data."
+  - "Firm growth is the common thread. When you start to think of the staggering consequences for human welfare involved in questions about drivers and barriers to growth, it is hard to think of anything else (alluding to Robert Lucas, Jr.). I work above all on artificial intelligence, and also on public policy such as trade, on migrant workers and on the servicification of firms, usually applying econometric methods to large de-identified longitudinal and linked employer–employee data."
 
 # Longer, formal biography (hidden behind a toggle), ported from the Google Site's Personal page.
 full_bio:
