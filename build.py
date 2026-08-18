@@ -321,9 +321,22 @@ def build():
         (OUT / "CNAME").write_text(S["domain"] + "\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
+    # The sitemap listed the homepage alone, so the two substantial pages served under this
+    # domain from their own repositories were never announced to Google: /cv/ (Magnus-L/cv)
+    # and /statistics-glossary/ (Magnus-L/statistics-glossary), both live and both linked
+    # from this page's prose. Search Console reported pages not being indexed on
+    # magnuslodefalk.com on 16 Aug 2026. A sitemap that names one of three pages is a
+    # reasonable way to get two of them ignored.
+    #
+    # They are listed here rather than each shipping its own sitemap because robots.txt
+    # advertises exactly one sitemap URL for the domain, and this is the repository that
+    # writes it. If a fourth path is added, add it here too; the build cannot discover pages
+    # that live in other repositories.
+    EXTRA_PATHS = ["/cv/", "/statistics-glossary/"]
+    locs = "".join(f"<url><loc>{BASE}{p}</loc></url>" for p in ["/"] + EXTRA_PATHS)
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-        f'<url><loc>{BASE}/</loc></url></urlset>', encoding="utf-8")
+        f'{locs}</urlset>', encoding="utf-8")
     n = len([p for p in PAPERS["published"] if MINE(p)]) + len(OTHER["published"])
     print(f"built magnuslodefalk.com · {n} peer-reviewed articles · "
           f"{len(DISS['writing'])} writing + {len(DISS['media'])} media items")
