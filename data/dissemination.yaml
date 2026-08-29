@@ -3,6 +3,7 @@
 # writing[]: {year, title, outlet, href?}   media[]: {year, outlet, desc, href?}
 
 writing:
+  - {year: 2026, title: "The Hybrid Intelligence Manifesto (public draft)", outlet: "Center for Hybrid Intelligence, Aarhus University; HI Manifesto consortium, 60 authors", href: "https://hi-infinity.ai/research/the-hybrid-intelligence-manifesto/"}
   - {year: 2026, title: "AI Is Not Reducing Employment but Rather Who Gets Hired", outlet: "ProMarket (Stigler Center, Chicago Booth), with Löthman, Koch & Engberg", href: "https://www.promarket.org/2026/06/17/ai-is-not-reducing-employment-but-rather-who-gets-hired/"}
   - {year: 2025, title: "Algoritmer för allmän nytta", outlet: "Expert Group on Public Economics (ESO), with Engberg & Tang", href: "https://eso.expertgrupp.se/rapporter/2025_2_-algoritmer-for-allman-nytta/"}
   - {year: 2025, title: "AI i offentlig sektor", outlet: "Ekonomisk Debatt, with Engberg, Rydén & Tang", href: "https://www.nationalekonomi.se/artikel/ai-i-offentlig-sektor/"}
