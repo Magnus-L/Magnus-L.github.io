@@ -1,0 +1,66 @@
+# Build magnuslodefalk.com on a runner and deploy the result.
+#
+# Until 31 Aug 2026 GitHub Pages served main:/docs directly and nothing built the site, so the
+# published HTML was whatever Magnus had last run build.py to produce and remembered to commit.
+# Editing data/*.yaml and pushing without that step published nothing, silently. A local
+# pre-push hook and a CI comparison both DETECTED that; building here removes it, because the
+# thing that is served is now produced from data/ every time rather than carried in the tree.
+#
+# This is the same shape as Magnus-L/cv, which has compiled and deployed the three CVs this way
+# since June 2026.
+#
+# ROLLBACK, if this ever needs undoing: set the Pages source back to branch main path /docs
+# (`gh api -X PUT repos/Magnus-L/Magnus-L.github.io/pages -f build_type=legacy \
+#   -f 'source[branch]=main' -f 'source[path]=/docs'`), then commit a built docs/ again.
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; never cancel one in flight, or the site can be left mid-swap.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # build.py's only third-party import. Pinned so a PyYAML major release cannot take the
+      # site down on a day nobody touched this repository.
+      - run: pip install "PyYAML~=6.0"
+
+      - name: Build
+        run: python3 build.py
+
+      # A build that silently produced nothing would otherwise deploy an empty site over a
+      # working one. The index page is the whole site, so its absence is the honest test.
+      - name: The build actually produced a site
+        run: |
+          test -s docs/index.html || { echo "::error::docs/index.html missing or empty"; exit 1; }
+          test -s docs/CNAME || { echo "::error::CNAME missing; the custom domain would be dropped"; exit 1; }
+          echo "index.html $(wc -c < docs/index.html) bytes, CNAME $(cat docs/CNAME)"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
