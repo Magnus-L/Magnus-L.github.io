@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Built by .github/workflows/deploy.yml on every push; not served from the tree.
+docs/

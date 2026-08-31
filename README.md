@@ -4,18 +4,27 @@ Personal academic site. Single page, data-driven (edit `data/site.yaml`, run `py
 Shares the AI-Econ Lab design system (`assets/styles.css`). GitHub Pages serves `main` `/docs`.
 Photo in `assets/magnus.jpg`. DNS cutover mirrors the lab site (Crossnet: apex A -> GitHub IPs, www CNAME -> magnus-l.github.io); do it only when ready.
 
-## The docs/ freshness hook
+## How this site publishes
 
-GitHub Pages serves `main:/docs` directly and this repository has **no build Action**, so
-editing `data/*.yaml` and pushing without running `build.py` publishes nothing, silently:
-the YAML lands in the repository and the live site keeps serving the previous HTML.
+`data/*.yaml` -> `build.py` -> `docs/` -> GitHub Pages, and **the runner does all of it**.
+`.github/workflows/deploy.yml` builds and deploys on every push to `main`. So editing the YAML
+and pushing is the whole workflow: you do not run `build.py` yourself, and `docs/` is gitignored
+because it is a build output rather than the thing that is served.
 
-`.githooks/pre-push` closes that. It rebuilds into a temporary directory and compares
-against `docs/`, rather than comparing timestamps, which are meaningless after a clone. A
-mismatch blocks the push and names the differing files. It fails open if `python3` or
-PyYAML is missing, so a broken toolchain never blocks a push, and `git push --no-verify`
-bypasses it deliberately.
+It was not always so. Until 31 August 2026 Pages served `main:/docs` directly and nothing built
+the site, which meant pushing edited YAML without remembering to run `build.py` published
+nothing, silently: no job failed and no warning appeared, and the live site simply kept serving
+the previous HTML. A local pre-push hook and a CI comparison both detected that; building on the
+runner removes it, and both have been retired.
 
-**It is enabled per clone**, by `git config core.hooksPath .githooks`. That setting lives in
-`.git/config` and is not pushed, so after re-cloning this repository run that command again
-or the hook does nothing.
+**Rollback**, if this ever needs undoing:
+
+```bash
+gh api -X PUT repos/Magnus-L/Magnus-L.github.io/pages -f build_type=legacy \
+  -f 'source[branch]=main' -f 'source[path]=/docs'
+python3 build.py && git add -f docs && git commit -m "Restore committed docs/" && git push
+```
+
+The deploy workflow checks that `docs/index.html` and `docs/CNAME` are non-empty before it
+uploads anything, so a build that quietly produced nothing fails rather than replacing a working
+site with an empty one.
