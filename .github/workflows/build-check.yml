@@ -1,0 +1,55 @@
+# Rebuild the site on every push and fail if docs/ does not match.
+#
+# GitHub Pages serves main:/docs from this repository directly, and nothing here builds it.
+# So editing data/*.yaml and pushing without running build.py publishes nothing, silently:
+# the YAML lands, the live site keeps serving the previous HTML, no job fails and no warning
+# appears anywhere. There is a local pre-push hook that catches this, but it is enabled by
+# `git config core.hooksPath .githooks`, which lives in .git/config, is not pushed, and is
+# therefore gone the moment this repository is cloned onto another machine.
+#
+# This check does the same comparison somewhere it cannot be lost or bypassed.
+#
+# It is also the honesty test for build.py itself. On 18 Aug 2026 the lab site's build.py
+# turned out to refuse to start on every GitHub runner, because an import resolved a working
+# tree that exists only on Magnus's laptop. Nothing there ran on push, so it surfaced thirty
+# hours later as an emailed scheduled-job failure. A laptop has his Workspace, his Homebrew
+# tectonic and his data checkouts; a runner has none of them. The runner is the honest
+# environment. Until this workflow has been green at least once, we do not actually know
+# that this site can be built anywhere but on that one Mac.
+name: build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # build.py's only third-party import. Pinned, so a PyYAML major release cannot turn a
+      # green check red on a day nobody touched this repository.
+      - run: pip install "PyYAML~=6.0"
+
+      # Compare against a copy taken before the build, not against timestamps: actions/checkout
+      # stamps every file with the checkout time, so any mtime test here would pass whatever
+      # the contents were. build.py wipes and recreates docs/, so moving the committed copy
+      # aside first is what makes the comparison meaningful.
+      - name: docs/ is what build.py produces from data/
+        run: |
+          mv docs docs.committed
+          python3 build.py
+          if ! diff -r docs.committed docs; then
+            echo "::error::docs/ is stale. Run 'python3 build.py', commit the result, and push again."
+            echo "magnuslodefalk.com serves main:/docs directly, so the live site does not move until docs/ does."
+            exit 1
+          fi
+          echo "docs/ matches the build"
