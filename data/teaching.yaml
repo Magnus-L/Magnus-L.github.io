@@ -3,7 +3,7 @@
 masters:
   - {name: "Corporate Finance", code: "NA404A", note: "main lecturer, 2018–", href: "https://www.oru.se/english/study/exchange-students/courses/course/economics-corporate-finance-second-cycle-na404a"}
   - {name: "Globalisation", code: "NA443A", note: "2025–", href: "https://www.oru.se/utbildning/kurser/kurs/nationalekonomi-globalisering-avancerad-niva-na443a"}
-  - {name: "Programming and Data Management for Economics and Finance", code: "NA446A", note: "2025–", href: "https://www.oru.se/english/study/exchange-studies/courses-for-exchange-students/course/economics-programming-and-data-management-for-economics-and-finance-second-cycle-na446a"}
+  - {name: "Programming and Data Management for Economics and Finance", code: "NA446A", note: "2025–", href: "https://magnuslodefalk.com/na446a/"}
   - {name: "MSc Thesis", code: "", note: "advisor, 2021–"}
 
 undergrad:
