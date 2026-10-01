@@ -20,7 +20,7 @@ groups:
       - {label: "GTAP", href: "https://www.gtap.agecon.purdue.edu"}
       - {label: "CEPII", href: "http://www.cepii.fr/cepii/en/bdd_modele/bdd.asp"}
       - {label: "LIS", href: "https://www.lisdatacenter.org/our-data/lis-database/", note: "Luxembourg Income Study"}
-      - {label: "Serrano", href: "https://www.hhs.se/en/houseoffinance/data-center/serrano/", note: "Swedish firm-level panel"}
+      - {label: "Serrano", href: "https://www.houseoffinance.se/data-center/serrano/", note: "Swedish firm-level panel; free for ORU students and staff"}
       - {label: "Ekonomifakta", href: "https://www.ekonomifakta.se", note: "Swedish economic facts"}
       - {label: "Riksbank rates & FX", href: "https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/", note: "interest rates and exchange rates"}
       - {label: "Maddison Project", href: "http://www.theworldeconomy.org", note: "long-run world economic history"}
