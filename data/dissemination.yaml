@@ -40,6 +40,7 @@ writing:
   - {year: 2005, title: "Climate and Trade Rules: Harmony or Conflict?", outlet: "National Board of Trade", href: "https://www.kommers.se/Documents/dokumentarkiv/publikationer/2004/rapporter/report-climate-and-trade-rules.pdf"}
 
 media:
+  - {year: 2026, outlet: "Svenska Dagbladet", desc: "AI creates new jobs: the occupations growing in the future labour market", href: "https://www.svd.se/a/kv6Jwj/ai-skapar-nya-jobb-har-ar-yrkena-som-vaxer-pa-framtidens-arbetsmarknad"}
   - {year: 2026, outlet: "Sveriges Radio", desc: "P1 God Morgon Världen (AI and jobs; students choosing vocational tracks)", href: "https://www.sverigesradio.se/artikel/student-2026-ai-forandrar-jobben-fler-valjer-yrkesutbildning"}
   - {year: 2026, outlet: "Snacka om AI (podcast)", desc: "Interview: should we fear AI?", href: "https://podcasters.spotify.com/pod/show/snacka-om-ai/episodes/Del-2--Br-vi-vara-rdda-fr-AI--En-AI-forskare-svarar-e3kb3u7"}
   - {year: 2026, outlet: "Aftonbladet", desc: "AI exposure and job security", href: "https://www.aftonbladet.se/minekonomi/a/6qob00/sakra-jobbet-inte-langre-sakert-hog-ai-exponering"}
