@@ -227,6 +227,11 @@ def page():
     ppara = "".join(f"<p>{h(p)}</p>" for p in b["personal"]["paras"])
     profiles = "".join(f'<a href="{p["href"]}">{h(p["label"])}</a>' for p in b["profiles"])
     c = b["contact"]
+    contact_note = ""
+    if c.get("note"):
+        nl = c.get("note_link") or {}
+        lnk = f' <a href="{h(nl["href"])}">{h(nl["label"])}</a>.' if nl else ""
+        contact_note = f'<p class="note" style="margin-top:14px">{h(c["note"])}{lnk}</p>'
     ld = json.dumps({"@context":"https://schema.org","@type":"Person","name":b["name"],"jobTitle":b["title"],
         "url":BASE,"affiliation":{"@type":"CollegeOrUniversity","name":"Örebro University"},
         "sameAs":[p["href"] for p in b["profiles"]]}, ensure_ascii=False)
@@ -302,7 +307,7 @@ def page():
     <div class="facts" style="margin-top:20px">
       <p><span class="k">E-mail</span><a class="email" data-u="{h(eu)}" data-d="{h(ed)}" data-reveal="keep" href="#contact">{h(email_obf)}</a></p>
       <p><span class="k">Phone</span>{h(c['phone'])}</p>
-      <p><span class="k">Post</span>{h(c['address'])}</p></div></section>
+      <p><span class="k">Post</span>{h(c['address'])}</p></div>{contact_note}</section>
 </div></main>
 
 <footer><div class="wrap"><div class="foot">

@@ -84,5 +84,8 @@ contact:
   email: "magnus.lodefalk@oru.se"      # rendered obfuscated + JS-assembled (anti-spam)
   phone: "+46 (0)722 21 73 40"
   address: "Örebro University, SE-701 82 Örebro, Sweden"
+  # Added 12 Oct 2026 (ML): deter individual PhD inquiries here, not on the lab site.
+  note: "I am unable to respond to individual inquiries about doctoral studies or thesis supervision. Doctoral positions at Örebro University are advertised on the university's website."
+  note_link: {label: "Available positions", href: "https://www.oru.se/english/career/available-positions/"}
 
 build: {emit_cname: true}
