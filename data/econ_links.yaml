@@ -24,6 +24,7 @@ groups:
       - {label: "Ekonomifakta", href: "https://www.ekonomifakta.se", note: "Swedish economic facts"}
       - {label: "Riksbank rates & FX", href: "https://www.riksbank.se/sv/statistik/sok-rantor--valutakurser/", note: "interest rates and exchange rates"}
       - {label: "Maddison Project", href: "http://www.theworldeconomy.org", note: "long-run world economic history"}
+      - {label: "Global Macro Database", href: "https://www.globalmacrodata.com", note: "46 harmonised macro variables, 200+ countries, centuries of data; Claude Code plugin"}
       - {label: "EU RAMON concordances", href: "https://ec.europa.eu/eurostat/ramon/index.cfm", note: "classification crosswalks"}
   - name: "Papers"
     links:
