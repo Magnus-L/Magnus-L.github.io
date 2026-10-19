@@ -194,8 +194,10 @@ def press_kit():
                   f'<img src="{thumb}" alt="Magnus Lodefalk — {h(ph["label"].lower())}" loading="lazy">'
                   f'<span class="cap">{h(ph["label"])}</span></a>')
     bio = f'<p class="pressbio">{h(pr["bio"])}</p>' if pr.get("bio") else ""
-    return (f'<div class="pcard"><p class="eyebrow" style="margin:0 0 8px">Press kit</p>{bio}'
-            f'<details class="more"><summary>Press photos</summary><div class="more-body">'
+    # id="press" is the link handed to journalists (magnuslodefalk.com/press redirects here);
+    # app.js opens the photo panel when the page is reached through that anchor.
+    return (f'<div class="pcard" id="press"><p class="eyebrow" style="margin:0 0 8px">Press kit</p>{bio}'
+            f'<details class="more" id="press-photos"><summary>Press photos</summary><div class="more-body">'
             f'<div class="press">{shots}</div>'
             f'<p class="note">Click any photo to download a high-resolution version. {h(pr["credit"])}</p>'
             f'</div></details></div>')
@@ -325,6 +327,16 @@ def build():
     if S.get("build", {}).get("emit_cname"):
         (OUT / "CNAME").write_text(S["domain"] + "\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    # Short link for journalists asking for a photo: magnuslodefalk.com/press. Pages cannot
+    # redirect server-side, so this is a stub that forwards to the press kit on the main page.
+    (OUT / "press").mkdir()
+    (OUT / "press" / "index.html").write_text(
+        f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        f'<title>Press kit · {h(S["name"])}</title>'
+        f'<link rel="canonical" href="{BASE}/#press">'
+        f'<meta http-equiv="refresh" content="0; url=/#press"></head>'
+        f'<body><p><a href="/#press">Press kit: bio and photos of {h(S["name"])}</a></p></body></html>',
+        encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
     # The sitemap listed the homepage alone, so the two substantial pages served under this
     # domain from their own repositories were never announced to Google: /cv/ (Magnus-L/cv)

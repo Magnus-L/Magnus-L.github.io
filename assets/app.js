@@ -23,3 +23,17 @@
     if (a.dataset.reveal !== "keep") a.textContent = addr;
   });
 })();
+
+/* Press link: magnuslodefalk.com/press (or /#press) opens the photo panel and brings the
+   press kit into view, so a journalist lands on the photos without hunting for them. */
+(function () {
+  function openPress() {
+    if (location.hash !== "#press") return;
+    const d = document.querySelector("#press-photos");
+    const card = document.querySelector("#press");
+    if (d) d.open = true;
+    if (card) card.scrollIntoView();
+  }
+  openPress();
+  window.addEventListener("hashchange", openPress);
+})();
