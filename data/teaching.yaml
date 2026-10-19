@@ -1,7 +1,7 @@
 # Teaching — current courses only (item 6). Course links preserved (item 10),
 # PhD list restored (collapsible), MSc thesis advice restored (item 11).
 masters:
-  - {name: "Corporate Finance", code: "NA404A", note: "main lecturer, 2018–", href: "https://www.oru.se/english/study/exchange-students/courses/course/economics-corporate-finance-second-cycle-na404a"}
+  - {name: "Corporate Finance", code: "NA434A", note: "main lecturer, 2018–", href: "https://magnuslodefalk.com/na434a/"}
   - {name: "Globalisation", code: "NA443A", note: "2025–", href: "https://www.oru.se/utbildning/kurser/kurs/nationalekonomi-globalisering-avancerad-niva-na443a"}
   - {name: "Programming and Data Management for Economics and Finance", code: "NA446A", note: "2025–", href: "https://magnuslodefalk.com/na446a/"}
   - {name: "MSc Thesis", code: "", note: "advisor, 2021–"}
