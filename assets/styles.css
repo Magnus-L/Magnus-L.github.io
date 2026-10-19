@@ -160,6 +160,11 @@ details.more[open]>summary::before{transform:rotate(90deg)}
 .pcard{border:1px solid var(--border);border-radius:10px;padding:15px 16px;background:var(--raise)}
 #press{scroll-margin-top:72px}
 .pcard .pressbio{margin:0}
+.plink{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;
+  margin:12px 0 0;padding-top:10px;border-top:1px solid var(--hair);font-size:13.5px}
+.copybtn{background:transparent;color:var(--muted);border:1px solid var(--border);border-radius:999px;
+  font:inherit;font-size:12.5px;padding:3px 10px;cursor:pointer}
+.copybtn:hover{border-color:var(--accent);color:var(--accent)}
 .abtside .press{grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
 
 /* short bio + press photos */

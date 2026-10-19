@@ -196,7 +196,12 @@ def press_kit():
     bio = f'<p class="pressbio">{h(pr["bio"])}</p>' if pr.get("bio") else ""
     # id="press" is the link handed to journalists (magnuslodefalk.com/press redirects here);
     # app.js opens the photo panel when the page is reached through that anchor.
-    return (f'<div class="pcard" id="press"><p class="eyebrow" style="margin:0 0 8px">Press kit</p>{bio}'
+    # The short link is shown on the card itself, with a copy button, so it can be pasted
+    # into a reply straight from the page.
+    plink = f'{S["domain"]}/press'
+    share = (f'<p class="plink"><a href="/press/">{h(plink)}</a>'
+             f'<button type="button" class="copybtn" data-copy="https://{h(plink)}">Copy link</button></p>')
+    return (f'<div class="pcard" id="press"><p class="eyebrow" style="margin:0 0 8px">Press kit</p>{bio}{share}'
             f'<details class="more" id="press-photos"><summary>Press photos</summary><div class="more-body">'
             f'<div class="press">{shots}</div>'
             f'<p class="note">Click any photo to download a high-resolution version. {h(pr["credit"])}</p>'

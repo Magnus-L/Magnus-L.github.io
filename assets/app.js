@@ -37,3 +37,19 @@
   openPress();
   window.addEventListener("hashchange", openPress);
 })();
+
+/* Copy buttons (the press link): put the URL on the clipboard and confirm on the button. */
+(function () {
+  document.querySelectorAll(".copybtn[data-copy]").forEach((b) => {
+    const label = b.textContent;
+    b.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(b.dataset.copy);
+        b.textContent = "Copied";
+      } catch (e) {
+        b.textContent = "Copy failed";
+      }
+      setTimeout(() => { b.textContent = label; }, 1800);
+    });
+  });
+})();
