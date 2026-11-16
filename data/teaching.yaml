@@ -20,7 +20,7 @@ msc_advice: >-
 # Doctoral students supervised (hidden behind a toggle; item 6).
 phd:
   - {name: "Lydia Löthman", period: "2025–", note: "ongoing"}
-  - {name: "Mark Hellsten", period: "2022–2025", note: "University of Tübingen"}
+  - {name: "Mark Hellsten", period: "2022–2025", note: "postdoc, University of Tübingen"}
   - {name: "Erik Engberg", period: "2020–2026", note: "WASP-HS postdoc, MIT", href: "https://oru.diva-portal.org/smash/record.jsf?pid=diva2%3A2043008"}
   - {name: "Johan Karlsson", period: "2016–2020", note: "postdoc, Jönköping University; Young Scholar award 2023"}
   - {name: "Aili Tang", period: "2017–2018", note: "Ratio"}
